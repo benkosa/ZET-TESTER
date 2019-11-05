@@ -1,0 +1,35 @@
+{
+    "Questions": {
+        "1":{
+            "Question": "...?",
+            "id": 1
+        },
+        "2":{
+            "Question": "...?",
+            "id": 2
+        }
+    },
+    
+    "Ansvers": {
+        "1a":{
+            "Ansver": "...",
+            "id": "1a",
+            "right": false
+        },
+        "1b":{
+            "Ansver": "...",
+            "id": "1b",
+            "right": false
+        },
+        "1c":{
+            "Ansver": "...",
+            "id": "1c",
+            "right": true
+        },
+        "1d":{
+            "Ansver": "...",
+            "id": "1d",
+            "right": false
+        }
+    }
+}
