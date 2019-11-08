@@ -1,0 +1,77 @@
+[
+  {
+     "name":"1. Vedecké základy ekonomickej teórie",
+     "from":1,
+     "to":22
+  },
+  {
+     "name":"3. Východiská a problémy fungovania ekonomiky",
+     "from":23,
+     "to":42
+  },
+  {
+     "name":"4. Výrobné faktory",
+     "from":43,
+     "to":62
+  },
+  {
+     "name":"5. Trh a trhový mechanizmus",
+     "from":63,
+     "to":82
+  },
+  {
+     "name":"6. trh výrobných faktorov",
+     "from":83,
+     "to":102
+  },
+  {
+     "name":"7. Účastníci trhu - domácnosti, podniky",
+     "from":103,
+     "to":120
+  },
+  {
+     "name":"8. Účastníci trhu - štát",
+     "from":121,
+     "to":138
+  },
+  {
+     "name":"9. Makroekonomické agregáty",
+     "from":139,
+     "to":160
+  },
+  {
+     "name":"10. Agregátny thr",
+     "from":161,
+     "to":176
+  },
+  {
+     "name":"11. Peniaze, peňažný trh, inflácia",
+     "from":177,
+     "to":195
+  },
+  {
+     "name":"12. Mena a menové vzťahy",
+     "from":196,
+     "to":218
+  },
+  {
+     "name":"13. Medzinárodný obchod",
+     "from":219,
+     "to":241
+  },
+  {
+     "name":"14. Medzinárodná ekonomická integrácia",
+     "from":242,
+     "to":261
+  },
+  {
+     "name":"15. Globalizácia",
+     "from":262,
+     "to":281
+  },
+  {
+     "name":"16. Transformácia ekonomiky",
+     "from":282,
+     "to":304
+  }
+]
