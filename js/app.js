@@ -1,7 +1,3 @@
-var Questions;
-var Answers;
-var Key;
-
 var app = angular
     .module("Module", [])    
     .controller("mainController", function ($scope, $http) {
@@ -40,7 +36,7 @@ var app = angular
             $scope.isRight = function(answer, test, question) {
                 if(answer.right == true){
                     //ak uz nebola zodpovedana pripocitam body
-                    if(question.answered == false){
+                    if(question.answered == null){
                         test.points++;
                     }    
                     answer.color = {'background-color': 'green'};
@@ -60,9 +56,9 @@ var app = angular
             $scope.clearTest = function(test){
                 test.points = 0;
                 test.questions.forEach(function (question) {
-                    question.answered = false;
+                    question.answered = null;
                     question.answers.forEach(function (answer) {
-                        answer.color = {'background-color': 'white'};
+                        answer.color = {'background-color': null};
                     });
 
                     //pre vacsiu  nahodnost premiesavam tri krat
