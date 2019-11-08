@@ -14,6 +14,9 @@ for line in sys.stdin:
         if toggle == False:
             if letter == "=":
                 toggle = True
+
+                qNumber = ids[:-1]
+                data[qNumber] = []
                 continue
 
         if toggle == False:
@@ -22,8 +25,11 @@ for line in sys.stdin:
         if toggle == True:
             question += letter
 
-    data[ids].question = question
-    #print(ids + " | " + question)
+    qMark = ids[-1:]
+    print(qMark)
+    data[qNumber].append(question)
+
+    print(ids + " | " + question)
 
     toggle = False
     ids = ""
@@ -32,8 +38,6 @@ for line in sys.stdin:
 
 json_data = json.dumps(data)
 
-f = open("question.json", "w")
+f = open("test.json", "w")
 f.write(json_data)
 f.close()
-        
-    
