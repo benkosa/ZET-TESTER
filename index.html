@@ -17,7 +17,7 @@
     <div ng-repeat = "test in Data" ng-controller="shController">
 
         <button ng-click="toggle('test.name')">{{test.name}}</button>
-        <button ng-click="clearTest(test)">{{test.points + "/" + test.questions.length}} &#x21bb;</button>
+        <button ng-click="clearTest(test)">{{test.points + "/" + test.questions.length}}{{test.points != '0' ? ' &#x21bb' : ''}}</button>
         
         <ul ng-repeat = "question in test.questions" ng-show="isShowing('test.name')">
             <li>{{question.question}}</li>
