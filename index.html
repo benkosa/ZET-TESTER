@@ -13,21 +13,21 @@
     <link href="style/style.css" rel="stylesheet"/> 
 </head>
 <body ng-app="Module" ng-controller="mainController">
-    
+        
     <div ng-repeat = "test in Data" ng-controller="shController">
 
         <button ng-click="toggle('test.name')">{{test.name}}</button>
-        <button>%</button>
-        <button>x</button>
+        <button ng-click="clearTest(test)">{{test.points + "/" + test.questions.length}}</button>
         
         <ul ng-repeat = "question in test.questions" ng-show="isShowing('test.name')">
             <li>{{question.question}}</li>
             
-            <ul ng-repeat = "answer in question.answers">
-                <button ng-style="answer.color" ng-click="isRight(answer)">{{answer.answer}}</button>
-            </ul>
+            <div ng-repeat = "answer in question.answers">
+                <button ng-style="answer.color" ng-click="isRight(answer, test, question)">{{answer.answer}}</button>
+            </div>
         </ul>
         
+        <button ng-show="isShowing('test.name')" ng-click="toggle('test.name')">skry</button>
     </div>
 
 </body>
