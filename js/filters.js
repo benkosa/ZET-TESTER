@@ -1,1 +1,1 @@
-/// [reference path="script.js" /]
+/// [reference path="app.js" /]

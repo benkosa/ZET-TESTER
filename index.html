@@ -9,11 +9,26 @@
     <script src="js/angular.js"></script>
     <script src="js/app.js"></script>
     <script src="js/filters.js"></script>
+    <script src="js/shController.js"></script>
     <link href="style/style.css" rel="stylesheet"/> 
 </head>
 <body ng-app="Module" ng-controller="mainController">
-    {{Data}}
+    
+    <div ng-repeat = "test in Data" ng-controller="shController">
 
+        <button ng-click="toggle('test.name')">{{test.name}}</button>
+        <button>%</button>
+        <button>x</button>
+        
+        <ul ng-repeat = "question in test.questions" ng-show="isShowing('test.name')">
+            <li>{{question.question}}</li>
+            
+            <ul ng-repeat = "answer in question.answers">
+                <button ng-style="answer.color" ng-click="isRight(answer)">{{answer.answer}}</button>
+            </ul>
+        </ul>
+        
+    </div>
 
 </body>
 </html>

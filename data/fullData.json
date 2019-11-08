@@ -5141,7 +5141,28 @@
               "right": "false"
             }
           ]
-        }
+        },
+        {
+            "question": "Medzi nástroje protekcionistickej zahraničnoobchodnej politiky nepatria:",
+            "answers": [
+              {
+                "answer": "dovozné prirážky,",
+                "right": "false"
+              },
+              {
+                "answer": "dovozné kvóty,",
+                "right": "false"
+              },
+              {
+                "answer": "vývozné subvencie,",
+                "right": "false"
+              },
+              {
+                "answer": "vývozné komodity.",
+                "right": "true"
+              }
+            ]
+          }
       ]
     },
     {
@@ -5149,27 +5170,6 @@
       "from": 242,
       "to": 261,
       "questions": [
-        {
-          "question": "Medzi nástroje protekcionistickej zahraničnoobchodnej politiky nepatria:",
-          "answers": [
-            {
-              "answer": "dovozné prirážky,",
-              "right": "false"
-            },
-            {
-              "answer": "dovozné kvóty,",
-              "right": "false"
-            },
-            {
-              "answer": "vývozné subvencie,",
-              "right": "false"
-            },
-            {
-              "answer": "vývozné komodity.",
-              "right": "true"
-            }
-          ]
-        },
         {
           "question": "Medzinárodná ekonomická integrácia predstavuje:",
           "answers": [
@@ -5568,14 +5568,7 @@
               "right": "false"
             }
           ]
-        }
-      ]
-    },
-    {
-      "name": "15. Globalizácia",
-      "from": 262,
-      "to": 281,
-      "questions": [
+        },
         {
           "question": "Ktorá z nasledujúcich krajín používajúcich euro, je súčasne aj členom eurozóny:",
           "answers": [
@@ -5596,7 +5589,14 @@
               "right": "false"
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "name": "15. Globalizácia",
+      "from": 262,
+      "to": 281,
+      "questions": [
         {
           "question": "Globalizácia predstavuje:",
           "answers": [
@@ -5995,14 +5995,7 @@
               "right": "true"
             }
           ]
-        }
-      ]
-    },
-    {
-      "name": "16. Transformácia ekonomiky",
-      "from": 282,
-      "to": 304,
-      "questions": [
+        },
         {
           "question": "Medzi služby e-govermentu nepatrí:",
           "answers": [
@@ -6023,7 +6016,14 @@
               "right": "false"
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "name": "16. Transformácia ekonomiky",
+      "from": 282,
+      "to": 304,
+      "questions": [
         {
           "question": "Transformácia z pohľadu makroekonómie znamená:",
           "answers": [
