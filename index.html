@@ -8,22 +8,25 @@
 
     <script src="js/angular.js"></script>
     <script src="js/app.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular-cookies.js"></script>
     <script src="js/filters.js"></script>
     <script src="js/shController.js"></script>
     <link href="style/style.css" rel="stylesheet"/> 
 </head>
 <body ng-app="Module" ng-controller="mainController">
         
-    <div ng-repeat = "test in Data" ng-controller="shController">
+    <div ng-repeat = "test in Data" ng-controller="shController" ng-init="testIndex=$index">
 
         <button ng-click="toggle('test.name')">{{test.name}}</button>
-        <button ng-click="clearTest(test)">{{test.points + "/" + test.questions.length + (test.points != '0' ? ' &#x21bb' : '')}}</button>
+        <button ng-click="clearTest(test, testIndex)">
+            {{test.points + "/" + test.questions.length + (test.points != '0' ? ' &#x21bb' : '')}}
+        </button>
         
-        <ul ng-repeat = "question in test.questions" ng-show="isShowing('test.name')">
+        <ul ng-repeat = "question in test.questions" ng-show="isShowing('test.name')" ng-init="questionIndex=$index">
             <li>{{question.question}}</li>
             
             <div ng-repeat = "answer in question.answers">
-                <button ng-style="answer.color" ng-click="isRight(answer, test, question)">{{answer.answer}}</button>
+                <button ng-style="answer.color" ng-click="isRight(answer, test, question, testIndex, questionIndex)">{{answer.answer}}</button>
             </div>
         </ul>
         

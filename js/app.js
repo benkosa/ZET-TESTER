@@ -1,10 +1,53 @@
 var app = angular
-    .module("Module", [])    
-    .controller("mainController", function ($scope, $http) {
-        $http.get("data/fullData.json").then(function(response) {                       
-            var data = response.data;
-            console.log(data);            
-            $scope.Data = data;
+    .module("Module", ['ngCookies'])    
+    .controller("mainController", function ($scope, $http, $cookies, $window) {
+        $http.get("data/fullData.json").then(function(response) {
+            
+            /**
+             * prida do cookies ze bola zodpovedana otazka
+             */
+            $scope.setCookies = function(testIndex, questionIndex, answerId){
+                //pocitanie expiracnej doby pre cookies
+                var now = new $window.Date(),
+                expireDate = new $window.Date(now.getFullYear(), now.getMonth()+6, now.getDate());
+
+                var strCookies = $cookies.get(testIndex);
+                //deklaruje objekt pre cookkies
+                cookies = {};
+                cookies.a = [];
+                
+                //ak uz nejake cookies exzistuju tak ich vitiahneme
+                if(strCookies != undefined){
+                    //cookies su string takze ich treba parsovat do json
+                    cookies = JSON.parse(strCookies);
+                }
+                
+                cookies.a[questionIndex] = {'q': questionIndex, 'a':answerId};
+                $cookies.put(testIndex, JSON.stringify(cookies), {'expires': expireDate});            
+            }
+
+            /**
+             * volam pri stalceni na odpoved
+             * @param {treba si pozriet strukturu dat vo fullData.json}
+             */
+            $scope.isRight = function(answer, test, question, testIndex, questionIndex) {
+                //pridam do cookies len pri prvom stlaceni na odpoved
+                if(question.answered == null)
+                    $scope.setCookies(testIndex, questionIndex, answer.id);
+                
+                if(answer.right == true){
+                    //ak uz nebola zodpovedana pripocitam body
+                    if(question.answered == null)
+                        test.points++;  
+                    answer.color = {'background-color': 'green'};
+                }else{
+                    answer.color = {'background-color': 'red'};
+                }
+                //nastavim ze uz otazka bola zodpovedana
+                //ochrana aby body pripocitavalo len ked trafim
+                //odpoved na prvy krat
+                question.answered = true;
+            };    
 
             /**
              * generuje random int od @param min do @param max 
@@ -30,30 +73,10 @@ var app = angular
             }
 
             /**
-             * volam pri stalceni na odpoved
-             * @param {treba si pozriet strukturu dat vo fullData.json}
-             */
-            $scope.isRight = function(answer, test, question) {
-                if(answer.right == true){
-                    //ak uz nebola zodpovedana pripocitam body
-                    if(question.answered == null){
-                        test.points++;
-                    }    
-                    answer.color = {'background-color': 'green'};
-                }else{
-                    answer.color = {'background-color': 'red'};
-                }
-                //nastavim ze uz otazka bola zodpovedana
-                //ochrana aby body pripocitavalo len ked trafim
-                //odpoved na prvy krat
-                question.answered = true;
-            };
-
-            /**
              * vynuluje body a odpovede pre dany test a premiesa odpovede
              * @param {treba si pozriet strukturu dat vo fullData.json} test 
              */
-            $scope.clearTest = function(test){
+            $scope.clearTest = function(test, testId){
                 test.points = 0;
                 test.questions.forEach(function (question) {
                     question.answered = null;
@@ -65,7 +88,29 @@ var app = angular
                     for(var i = 0; i < 3; i++)
                         shuffleAnswers(question);
                 });
+                $cookies.remove(testId);
             }
+
+            /////////////////////////MAIN//////////////////////////
+
+            var data = response.data;
+            //prehladavame vsetky cookies
+            for(var i = 0; i < data.length; i++){
+                strCookie = $cookies.get(i);
+                //ak nasiel cookie
+                if(strCookie != undefined){
+                    cookie = JSON.parse(strCookie);
+                    //testujeme vsetky odpovede z cookies
+                    cookie.a.forEach(function(answer){    
+                        answers = data[i].questions[answer.q].answers[answer.a];
+                        questions = data[i].questions[answer.q];
+                        $scope.isRight(answers, data[i], questions);
+                    });
+                }                
+            }
+
+            $scope.Data = data;
+
         });
     })
 
