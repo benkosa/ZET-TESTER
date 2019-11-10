@@ -15,22 +15,22 @@
 </head>
 <body ng-app="Module" ng-controller="mainController">
         
-    <div ng-repeat = "test in Data" ng-controller="shController" ng-init="testIndex=$index">
-
-        <button ng-click="toggle('test.name')">{{test.name}}</button>
-        <button ng-click="clearTest(test, testIndex)">
-            {{test.points + "/" + test.questions.length + (test.points != '0' ? ' &#x21bb' : '')}}
-        </button>
-        
-        <ul ng-repeat = "question in test.questions" ng-show="isShowing('test.name')" ng-init="questionIndex=$index">
-            <li>{{question.question}}</li>
-            
-            <div ng-repeat = "answer in question.answers">
-                <button ng-style="answer.color" ng-click="isRight(answer, test, question, testIndex, questionIndex)">{{answer.answer}}</button>
+    <div class="main"ng-repeat="test in Data" ng-controller="shController" ng-init="testIndex=$index">
+        <div class="testName">
+            <div class="bTest" ng-click="toggle('test.name')">{{test.name}}</div>
+            <div class="bTestSH" ng-click="clearTest(test, testIndex)">
+                {{test.points + "/" + test.questions.length + (test.points != '0' ? ' &#x21bb' : "  ")}}
             </div>
-        </ul>
-        
-        <button ng-show="isShowing('test.name')" ng-click="toggle('test.name')">Skry test</button>
+        </div>
+        <div ng-repeat="question in test.questions" ng-show="isShowing('test.name')" ng-init="questionIndex=$index">
+                <div class="question">{{$index+1}}. {{question.question}}</div>            
+            <div ng-repeat="answer in question.answers">
+                <div class="bAnswer" ng-style="answer.color" ng-click="isRight(answer, test, question, testIndex, questionIndex)">
+                    {{answer.answer}}
+                </div>
+            </div>
+        </div>      
+        <button class="bTestH" ng-show="isShowing('test.name')" ng-click="toggle('test.name')">Skry test</button>
     </div>
 
 </body>

@@ -1,1 +1,106 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+body {
+  background: #101010;
+  overflow-y: scroll;
+  color: #ADADAD;
+}
+
+.main {
+  max-width: 100%;
+}
+
+@media (min-width: 840px) {
+  .main {
+    max-width: 70%;
+    margin: auto;
+  }
+}
+
+.testName {
+  display: table;
+  width: 100%;
+}
+
+.bTest, .bTestSH {
+  background-color: #161616;
+  border: 4px solid #101010;
+  display: inline-block;
+  cursor: pointer;
+  font-family: Arial;
+  font-size: 105%;
+  font-weight: bold;
+  padding: 9px 23px;
+  text-decoration: none;
+  display: table-cell;
+  width: 80%;
+  vertical-align: middle;
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Safari */
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Old versions of Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+  /* Non-prefixed version, currently
+									supported by Chrome, Opera and Firefox */
+}
+
+.bTest:hover, .bTestSH:hover {
+  border-left-style: solid;
+  border-left-color: coral;
+  background-color: #3D3D3D;
+}
+
+.bTest:active, .bTestSH:active {
+  position: relative;
+  top: 1px;
+}
+
+.bTestSH {
+  width: 20%;
+  text-align: center;
+}
+
+.bAnswer {
+  cursor: pointer;
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Safari */
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Old versions of Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+  /* Non-prefixed version, currently
+									supported by Chrome, Opera and Firefox */
+  background: #272323;
+  font-size: 90%;
+  padding: 6px;
+  border-style: solid;
+  border-color: #272323;
+  border-left-style: solid;
+  border-left-color: #ff6127;
+  margin-top: 2px;
+}
+
+.bAnswer:hover {
+  border-style: solid;
+  border-color: coral;
+}
+
+.bAnswer:active {
+  position: relative;
+  top: 1px;
+}
+
+.question {
+  background: #3D3D3D;
+  font-size: 100%;
+  padding: 9px;
+  border: 1px solid #241d13;
+}
+/*# sourceMappingURL=style.css.map */

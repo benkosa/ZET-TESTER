@@ -1,0 +1,109 @@
+$backgroundC: #101010;
+$questionBackground: rgb(39, 35, 35);
+$textColor: #ADADAD;
+$btnHover: #3D3D3D;
+
+$btnN:#161616;
+$btnA:#3D3D3D;
+
+$desktop: 840px;
+
+@mixin desktop () {
+	@media (min-width: #{$desktop}){
+		@content;
+	}
+}
+
+@mixin noselect() {
+	-webkit-touch-callout: none; /* iOS Safari */
+	  -webkit-user-select: none; /* Safari */
+	   -khtml-user-select: none; /* Konqueror HTML */
+		 -moz-user-select: none; /* Old versions of Firefox */
+		  -ms-user-select: none; /* Internet Explorer/Edge */
+			  user-select: none; /* Non-prefixed version, currently
+									supported by Chrome, Opera and Firefox */
+  }
+
+
+body {
+	background: $backgroundC;
+	overflow-y: scroll;
+	color: $textColor;
+}
+
+.main{
+	max-width: 100%;
+	@include desktop(){
+		max-width: 70%;
+		margin: auto;
+	}
+}
+
+.testName {
+	display: table;
+	width: 100%;
+}
+
+.bTest, .bTestSH {
+	background-color: $btnN;
+	border:4px solid $backgroundC;
+	display:inline-block;
+	cursor:pointer;
+	font-family:Arial;
+	font-size: 105%;
+	font-weight:bold;
+	padding:9px 23px;
+	text-decoration:none;
+
+
+	display: table-cell;
+	width: 80%;
+	vertical-align: middle;
+	@include noselect();
+
+	&:hover {
+		border-left-style: solid;
+		border-left-color: coral;
+		background-color: $btnA;
+	}
+	&:active {
+		position:relative;
+		top:1px;
+	}
+}
+
+.bTestSH {	
+	width: 20%;
+	text-align: center;
+}
+.bAnswer {
+	cursor:pointer;
+	@include noselect();
+	background: $questionBackground;
+	font-size: 90%;
+	padding:6px;
+
+	border-style: solid;
+	border-color: $questionBackground;
+
+	border-left-style: solid;
+	border-left-color: rgb(255, 97, 39);
+	margin-top: 2px;
+	
+	&:hover {
+		border-style: solid;
+		border-color: coral;
+	}
+	&:active {
+		position:relative;
+		top:1px;
+	}
+	
+}
+
+.question {
+	background: $btnHover;
+	font-size: 100%;
+	padding:9px;
+	border:1px solid #241d13;
+}

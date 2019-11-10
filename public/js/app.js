@@ -39,9 +39,9 @@ var app = angular
                     //ak uz nebola zodpovedana pripocitam body
                     if(question.answered == null)
                         test.points++;  
-                    answer.color = {'background-color': 'green'};
+                    answer.color = {'background-color': 'rgb(31, 71, 12)'};                    
                 }else{
-                    answer.color = {'background-color': 'red'};
+                    answer.color = {'background-color': 'rgb(136, 59, 59)'};
                 }
                 //nastavim ze uz otazka bola zodpovedana
                 //ochrana aby body pripocitavalo len ked trafim
@@ -102,9 +102,11 @@ var app = angular
                     cookie = JSON.parse(strCookie);
                     //testujeme vsetky odpovede z cookies
                     cookie.a.forEach(function(answer){    
-                        answers = data[i].questions[answer.q].answers[answer.a];
-                        questions = data[i].questions[answer.q];
-                        $scope.isRight(answers, data[i], questions);
+                        if(answer != null){
+                            answers = data[i].questions[answer.q].answers[answer.a];
+                            questions = data[i].questions[answer.q];
+                            $scope.isRight(answers, data[i], questions);
+                        }    
                     });
                 }                
             }
