@@ -4,15 +4,19 @@ body {
   color: #ADADAD;
 }
 
-.main {
+.main, footer {
   max-width: 100%;
 }
 
 @media (min-width: 840px) {
-  .main {
+  .main, footer {
     max-width: 70%;
     margin: auto;
   }
+}
+
+footer {
+  padding: 2% 5%;
 }
 
 .testName {

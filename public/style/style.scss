@@ -31,12 +31,16 @@ body {
 	color: $textColor;
 }
 
-.main{
+.main, footer{
 	max-width: 100%;
 	@include desktop(){
 		max-width: 70%;
 		margin: auto;
 	}
+}
+
+footer {
+	padding:2% 5%;
 }
 
 .testName {
