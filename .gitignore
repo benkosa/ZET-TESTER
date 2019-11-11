@@ -1,7 +1,7 @@
 #moje
 .vscode/
 .firebaserc
-.firebase.json
+firebase.json
 
 #defaulut from firebase
 
