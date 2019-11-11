@@ -1,0 +1,27 @@
+.arrow {
+	display: inline-block;
+	float: right;
+	//background-color: yellow;
+	display: table-cell;
+	width: 2%;
+	height: 100%;
+}
+
+i {
+	border: solid $textColor;
+	border-width: 0 3px 3px 0;
+	padding: 3px;
+	display: inline-block;
+	vertical-align: center;
+	float: right;
+	//background-color: blue;
+} 
+.up {
+	transform: rotate(-135deg);
+	-webkit-transform: rotate(-135deg);
+}
+  
+.down {
+	transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+}

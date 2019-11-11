@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ZET-TESTER 2.0</title>
+
+    <script src="js/angular.js"></script>
+    <script src="js/app.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular-cookies.js"></script>
+    <script src="js/shController.js"></script>
+    <link href="style/style.css" rel="stylesheet"/>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=PZ8B3HC5YS"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'PZ8B3HC5YS');
+    </script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-151986339-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-151986339-1');
+    </script>
+
+</head>
+<body ng-app="Module" ng-controller="mainController">
+        
+    <div class="main"ng-repeat="test in Data" ng-controller="shController" ng-init="testIndex=$index">        
+        <div class="testName">
+            <div class="bTest" ng-click="toggle('test.name'); changeArrow(test)">                
+                <div class="testText">{{test.name}}</div>
+                <div class="arrow"><i class={{test.arrow}}></i></div>
+            </div>
+            <div class="bTestSH" ng-click="clearTest(test, testIndex)">
+                {{test.points + "/" + test.questions.length + (test.points != '0' ? ' &#x21bb' : "  ")}}
+            </div>
+        </div>
+
+        <div ng-repeat="question in test.questions" ng-show="isShowing('test.name')" ng-init="questionIndex=$index">
+                <div class="question">{{$index+1}}. {{question.question}}</div>            
+            
+            <div ng-repeat="answer in question.answers">
+                <div class="bAnswer" ng-style="answer.color" ng-click="isRight(answer, test, question, testIndex, questionIndex)">{{answer.answer}}</div>
+            </div>
+        </div>
+
+        <button class="bTestH" ng-show="isShowing('test.name')" ng-click="toggle('test.name')">Skry test</button>
+    </div>
+    
+    <footer>
+        Zdrojový kód projektu: <a target="_blank" rel="noopener noreferrer" href="https://github.com/benkosa/ZET-TESTER/tree/master">github.com/benkosa</a>
+    </footer>
+</body>
+</html>

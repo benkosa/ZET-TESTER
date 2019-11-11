@@ -1,0 +1,56 @@
+@import "./variablesMixin";
+@import "./btnTest";
+@import "./arrow";
+
+
+body {
+	background: $backgroundC;
+	overflow-y: scroll;
+	color: $textColor;
+}
+
+.main, footer {
+	max-width: 100%;
+	@include desktop() {
+		max-width: 70%;
+		margin: auto;
+	}
+}
+
+footer {
+	padding:2% 5%;
+}
+
+.question {
+	font-weight:bold;
+	background: $btnHover;
+	font-size: 100%;
+	padding:9px;
+	border:1px solid $answerBackground;
+}
+
+
+.bAnswer {
+	cursor:pointer;
+	@include noselect();
+	background: $questionBackground;
+	padding:6px;
+	font-size: 100%;
+
+	border-style: solid;
+	border-color: $questionBackground;
+
+	border-left-style: solid;
+	border-left-color: $testBorder;
+	margin-top: 2px;
+	
+	&:hover {
+		border-color: $answerBorder;
+		border-style: solid;
+	}
+	&:active {
+		position:relative;
+		top:1px;
+	}
+	
+}

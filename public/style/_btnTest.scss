@@ -1,0 +1,56 @@
+.testName {
+	display: table;
+	width: 100%;
+}
+
+.testText {
+	float: left;
+	//background-color: red;
+	display: table-cell;
+	width: 92%;
+	height: 100%;
+}
+
+.bTest {
+	//background-color: green;
+}
+
+.bTest, .bTestSH, .bTestH {
+	background-color: $btnN;
+	border:4px solid $backgroundC;
+	display:inline-block;
+	cursor:pointer;
+	font-family:Arial;
+	font-size: 105%;
+	font-weight:bold;
+	padding:9px 23px;
+	text-decoration:none;
+
+
+	display: table-cell;
+	
+	width: 80%;
+	vertical-align: middle;
+	@include noselect();
+
+	&:hover {
+		border-left-style: solid;
+		border-left-color: $answerBorder;
+		background-color: $btnA;
+	}
+	&:active {
+		position:relative;
+		top:1px;
+	}
+}
+
+.bTestH {
+	width: 100%;
+	text-align: left;
+	color: $textColor;
+}
+
+.bTestSH {	
+	width: 20%;
+	text-align: center;
+}
