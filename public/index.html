@@ -15,26 +15,22 @@
 </head>
 <body ng-app="Module" ng-controller="mainController">
         
-    <div class="main"ng-repeat="test in Data" ng-controller="shController" ng-init="testIndex=$index">
+    <div class="main"ng-repeat="test in Data" ng-controller="shController" ng-init="testIndex=$index">        
         <div class="testName">
             <div class="bTest" ng-click="toggle('test.name'); changeArrow(test)">                
-                <div class="testText">
-                    {{test.name}} 
-                </div>
-                <div class="arrow">
-                    <i class={{test.arrow}}></i> 
-                </div>
+                <div class="testText">{{test.name}}</div>
+                <div class="arrow"><i class={{test.arrow}}></i></div>
             </div>
             <div class="bTestSH" ng-click="clearTest(test, testIndex)">
                 {{test.points + "/" + test.questions.length + (test.points != '0' ? ' &#x21bb' : "  ")}}
             </div>
         </div>
+
         <div ng-repeat="question in test.questions" ng-show="isShowing('test.name')" ng-init="questionIndex=$index">
                 <div class="question">{{$index+1}}. {{question.question}}</div>            
+            
             <div ng-repeat="answer in question.answers">
-                <div class="bAnswer" ng-style="answer.color" ng-click="isRight(answer, test, question, testIndex, questionIndex)">
-                    {{answer.answer}}
-                </div>
+                <div class="bAnswer" ng-style="answer.color" ng-click="isRight(answer, test, question, testIndex, questionIndex)">{{answer.answer}}</div>
             </div>
         </div>
 
