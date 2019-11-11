@@ -17,7 +17,14 @@
         
     <div class="main"ng-repeat="test in Data" ng-controller="shController" ng-init="testIndex=$index">
         <div class="testName">
-            <div class="bTest" ng-click="toggle('test.name')">{{test.name}}</div>
+            <div class="bTest" ng-click="toggle('test.name'); changeArrow(test)">                
+                <div class="testText">
+                    {{test.name}} 
+                </div>
+                <div class="arrow">
+                    <i class={{test.arrow}}></i> 
+                </div>
+            </div>
             <div class="bTestSH" ng-click="clearTest(test, testIndex)">
                 {{test.points + "/" + test.questions.length + (test.points != '0' ? ' &#x21bb' : "  ")}}
             </div>
@@ -29,11 +36,13 @@
                     {{answer.answer}}
                 </div>
             </div>
-        </div>      
+        </div>
+
         <button class="bTestH" ng-show="isShowing('test.name')" ng-click="toggle('test.name')">Skry test</button>
     </div>
+    
     <footer>
-        Zdrojovy kód projektu: <a target="_blank" rel="noopener noreferrer" href="https://github.com/benkosa/ZET-TESTER/tree/master/public">github.com/benkosa</a>
+        Zdrojový kód projektu: <a target="_blank" rel="noopener noreferrer" href="https://github.com/benkosa/ZET-TESTER/tree/master/public">github.com/benkosa</a>
     </footer>
 </body>
 </html>

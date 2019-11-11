@@ -1,0 +1,29 @@
+$backgroundC: #101010;
+$questionBackground: rgb(39, 35, 35);
+$textColor: #ADADAD;
+$btnHover: #3D3D3D;
+$answerBackground: #241d13;
+$answerBorder: coral;
+$testBorder: rgb(255, 97, 39);
+
+$btnN:#161616;
+$btnA:#3D3D3D;
+
+$desktop: 840px;
+
+@mixin desktop () {
+	@media (min-width: #{$desktop}){
+		@content;
+	}
+}
+
+@mixin noselect() {
+	-webkit-touch-callout: none; /* iOS Safari */
+	  -webkit-user-select: none; /* Safari */
+	   -khtml-user-select: none; /* Konqueror HTML */
+		 -moz-user-select: none; /* Old versions of Firefox */
+		  -ms-user-select: none; /* Internet Explorer/Edge */
+			  user-select: none; /* Non-prefixed version, currently
+									supported by Chrome, Opera and Firefox */
+  }
+  

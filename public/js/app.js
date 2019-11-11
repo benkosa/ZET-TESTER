@@ -96,6 +96,7 @@ var app = angular
             var data = response.data;
             //prehladavame vsetky cookies
             for(var i = 0; i < data.length; i++){
+                data[i].arrow = "down";
                 strCookie = $cookies.get(i);
                 //ak nasiel cookie
                 if(strCookie != undefined){
@@ -109,6 +110,14 @@ var app = angular
                         }    
                     });
                 }                
+            }
+
+            $scope.changeArrow = function(test){
+                console.log(test);
+                if(test.arrow == "up")
+                    test.arrow = "down";
+                else
+                    test.arrow = "up";
             }
 
             $scope.Data = data;

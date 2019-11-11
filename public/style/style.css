@@ -1,30 +1,16 @@
-body {
-  background: #101010;
-  overflow-y: scroll;
-  color: #ADADAD;
-}
-
-.main, footer {
-  max-width: 100%;
-}
-
-@media (min-width: 840px) {
-  .main, footer {
-    max-width: 70%;
-    margin: auto;
-  }
-}
-
-footer {
-  padding: 2% 5%;
-}
-
 .testName {
   display: table;
   width: 100%;
 }
 
-.bTest, .bTestSH {
+.testText {
+  float: left;
+  display: table-cell;
+  width: 92%;
+  height: 100%;
+}
+
+.bTest, .bTestSH, .bTestH {
   background-color: #161616;
   border: 4px solid #101010;
   display: inline-block;
@@ -51,20 +37,82 @@ footer {
 									supported by Chrome, Opera and Firefox */
 }
 
-.bTest:hover, .bTestSH:hover {
+.bTest:hover, .bTestSH:hover, .bTestH:hover {
   border-left-style: solid;
   border-left-color: coral;
   background-color: #3D3D3D;
 }
 
-.bTest:active, .bTestSH:active {
+.bTest:active, .bTestSH:active, .bTestH:active {
   position: relative;
   top: 1px;
+}
+
+.bTestH {
+  width: 100%;
+  text-align: left;
+  color: #ADADAD;
 }
 
 .bTestSH {
   width: 20%;
   text-align: center;
+}
+
+.arrow {
+  display: inline-block;
+  float: right;
+  display: table-cell;
+  width: 2%;
+  height: 100%;
+}
+
+i {
+  border: solid #ADADAD;
+  border-width: 0 3px 3px 0;
+  padding: 3px;
+  display: inline-block;
+  vertical-align: center;
+  float: right;
+}
+
+.up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+body {
+  background: #101010;
+  overflow-y: scroll;
+  color: #ADADAD;
+}
+
+.main, footer {
+  max-width: 100%;
+}
+
+@media (min-width: 840px) {
+  .main, footer {
+    max-width: 70%;
+    margin: auto;
+  }
+}
+
+footer {
+  padding: 2% 5%;
+}
+
+.question {
+  font-weight: bold;
+  background: #3D3D3D;
+  font-size: 100%;
+  padding: 9px;
+  border: 1px solid #241d13;
 }
 
 .bAnswer {
@@ -82,8 +130,8 @@ footer {
   /* Non-prefixed version, currently
 									supported by Chrome, Opera and Firefox */
   background: #272323;
-  font-size: 90%;
   padding: 6px;
+  font-size: 100%;
   border-style: solid;
   border-color: #272323;
   border-left-style: solid;
@@ -92,19 +140,12 @@ footer {
 }
 
 .bAnswer:hover {
-  border-style: solid;
   border-color: coral;
+  border-style: solid;
 }
 
 .bAnswer:active {
   position: relative;
   top: 1px;
-}
-
-.question {
-  background: #3D3D3D;
-  font-size: 100%;
-  padding: 9px;
-  border: 1px solid #241d13;
 }
 /*# sourceMappingURL=style.css.map */
