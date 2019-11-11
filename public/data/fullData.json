@@ -6,7 +6,7 @@
            "question":"Ekonómia je:",
            "answers":[
               {
-                 "answer":"veda o tom, ako ludia hospodária",
+                 "answer":"veda o tom, ako ľudia hospodária",
                  "right":true,
                  "id":0
               },
@@ -28,7 +28,7 @@
            ]
         },
         {
-           "question":"Výrok: „Kapitálové statky neslúžia na bezprostredné uspokojovanie potrieb, ale vstupujú do výroby ako vý robné vstupy a slúžia tak na produkciu iných investičných alebo spotrebných statkov.“ radíme do:",
+           "question":"Výrok: „Kapitálové statky neslúžia na bezprostredné uspokojovanie potrieb, ale vstupujú do výroby ako výrobné vstupy a slúžia tak na produkciu iných investičných alebo spotrebných statkov.“ radíme do:",
            "answers":[
               {
                  "answer":"normatívnej ekonómie",
