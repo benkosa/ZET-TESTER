@@ -3011,12 +3011,12 @@
            "question":"Podľa Keynesa zvýšenie investícií vo výške 180 mld. eur, v prípade ak investičný multiplikátor má hodnotu 5, vyvolá efekt:",
            "answers":[
               {
-                 "answer":"? Yd = 36 mld. eur",
+                 "answer":"Δ Yd = 36 mld. eur",
                  "right":false,
                  "id":0
               },
               {
-                 "answer":"? Yd = 175 mld. eur",
+                 "answer":"Δ Yd = 175 mld. eur",
                  "right":false,
                  "id":1
               },
@@ -3028,6 +3028,57 @@
               {
                  "answer":"výstup ekonomiky vzrastie o 900 mld. eur",
                  "right":true,
+                 "id":3
+              }
+           ]
+        },
+        {
+           "question":"Na obrázku je grafické znázornenie spotrebnej funkcie:",
+           "picture": "data/pictures/t07q19.png",
+           "answers":[
+              {
+                 "answer":"S = -5 + MPS * Yd",
+                 "right":false,
+                 "id":0
+              },
+              {
+                 "answer":"S = 5 + MPS * Yd",
+                 "right":true,
+                 "id":1
+              },
+              {
+                 "answer":"S = -5 + MPC * Yd",
+                 "right":false,
+                 "id":2
+              },
+              {
+                 "answer":"S = 5 + MPC * Yd",
+                 "right":false,
+                 "id":3
+              }
+           ]
+        },
+        {
+           "question":"Na základe hore uvedeného obrázka vieme, že v danom príklade hodnota hraničného sklonu k úsporam je:",
+           "answers":[
+              {
+                 "answer":"0.10",
+                 "right":false,
+                 "id":0
+              },
+              {
+                 "answer":"0.20",
+                 "right":true,
+                 "id":1
+              },
+              {
+                 "answer":"0.80",
+                 "right":false,
+                 "id":2
+              },
+              {
+                 "answer":"0.90",
+                 "right":false,
                  "id":3
               }
            ]
@@ -3386,6 +3437,58 @@
                  "right":false,
                  "id":3
               }
+           ]
+        },
+        {
+           "question":"Nakreslite na grafe ponuky a dopytu na trhu statkov a služieb príklad štatom stanovenej minimalnej ceny",
+           "picture": "data/pictures/t08q15.png",
+           "answers":[
+            {
+               "answer":"Viem",
+               "right":true,
+               "id":0
+            },
+            {
+               "answer":"Neviem",
+               "right":false,
+               "id":1
+            },
+            {
+               "answer":"Neviem",
+               "right":false,
+               "id":2
+            },
+            {
+               "answer":"Neviem",
+               "right":false,
+               "id":3
+            }
+           ]
+        },
+        {
+           "question":"Nakreslite na grafe ponuky a dopytu na trhu statkov a služieb príklad štatom stanovenej maximalnej ceny",
+           "picture": "data/pictures/t08q15.png",
+           "answers":[
+            {
+               "answer":"Viem",
+               "right":true,
+               "id":0
+            },
+            {
+               "answer":"Neviem",
+               "right":false,
+               "id":1
+            },
+            {
+               "answer":"Neviem",
+               "right":false,
+               "id":2
+            },
+            {
+               "answer":"Neviem",
+               "right":false,
+               "id":3
+            }
            ]
         },
         {
@@ -4449,6 +4552,110 @@
                  "id":3
               }
            ]
+        },
+        {
+           "question":"Na obrázku je krivka AS:",
+           "picture": "data/pictures/t10q17.png",
+           "answers":[
+              {
+                 "answer":"v krátkom období podla klasikov",
+                 "right":false,
+                 "id":0
+              },
+              {
+                 "answer":"v dlhom obdoi podla klasikov",
+                 "right":false,
+                 "id":1
+              },
+              {
+                 "answer":"V krátko období podla Keynesa",
+                 "right":true,
+                 "id":2
+              },
+              {
+                 "answer":"V dlhom období podla Laffera",
+                 "right":false,
+                 "id":3
+              }
+           ]
+        },
+        {
+           "question":"Na obrázku je krivka:",
+           "picture": "data/pictures/t10q18.png",
+           "answers":[
+              {
+                 "answer":"AD v krátkom období podla klasikov",
+                 "right":false,
+                 "id":0
+              },
+              {
+                 "answer":"AS v krátkom období podla Keynesa",
+                 "right":false,
+                 "id":1
+              },
+              {
+                 "answer":"AD v dlhom období podla neokynesovcov",
+                 "right":true,
+                 "id":2
+              },
+              {
+                 "answer":"AS v dlhom období podla Keynesa",
+                 "right":false,
+                 "id":3
+              }
+           ]
+        },
+        {
+           "question":"Na obrázku je rovnováha:",
+           "picture": "data/pictures/t10q19.png",
+           "answers":[
+              {
+                 "answer":"na agregátnom trhu podla klasikov",
+                 "right":false,
+                 "id":0
+              },
+              {
+                 "answer":"na agregátnom trhu podla Keynesa",
+                 "right":false,
+                 "id":1
+              },
+              {
+                 "answer":"na agregátnom trhu podla neokynesovcov",
+                 "right":true,
+                 "id":2
+              },
+              {
+                 "answer":"žiadna z odpovedí nieje správna",
+                 "right":false,
+                 "id":3
+              }
+           ]
+        },
+        {
+           "question":"Na obrázku je rovnováha:",
+           "picture": "data/pictures/t10q20.png",
+           "answers":[
+              {
+               "answer":"na agregátnom trhu podla klasikov",
+               "right":false,
+               "id":0
+            },
+            {
+               "answer":"na agregátnom trhu podla Keynesa",
+               "right":false,
+               "id":1
+            },
+            {
+               "answer":"na agregátnom trhu podla neokynesovcov",
+               "right":true,
+               "id":2
+            },
+            {
+               "answer":"žiadna z odpovedí nieje správna",
+               "right":false,
+               "id":3
+              }
+           ]
         }
      ],
      "points":0
@@ -4707,6 +4914,32 @@
            ]
         },
         {
+           "question":"Zakreslite do grafu ako sa zmení rovnováha na peňažnom trhu, ak centrálna banka bude uplatňovať reštriktívnu monetárnu politku",
+           "picture": "data/pictures/t11q11.png",
+           "answers":[
+            {
+               "answer":"Viem",
+               "right":true,
+               "id":0
+            },
+            {
+               "answer":"Neviem",
+               "right":false,
+               "id":1
+            },
+            {
+               "answer":"Neviem",
+               "right":false,
+               "id":2
+            },
+            {
+               "answer":"Neviem",
+               "right":false,
+               "id":3
+            }
+           ]
+        },
+        {
            "question":"Vyznačne, čo neovplyvňuje dopyt po reálnych peňažných zostatkoch na peňažnom trhu:",
            "answers":[
               {
@@ -4829,6 +5062,32 @@
                  "right":false,
                  "id":3
               }
+           ]
+        },
+        {
+           "question":"Zakreslite do grafu ako sa zmení krivka dopytu na peňažnom trhu, ak sa zvýši dôchodok hospodárskych subjektov, ktoré vytvárajú dopyt po reálnych peňažných zostatkoch",
+           "picture": "data/pictures/t11q17.png",
+           "answers":[
+            {
+               "answer":"Viem",
+               "right":true,
+               "id":0
+            },
+            {
+               "answer":"Neviem",
+               "right":false,
+               "id":1
+            },
+            {
+               "answer":"Neviem",
+               "right":false,
+               "id":2
+            },
+            {
+               "answer":"Neviem",
+               "right":false,
+               "id":3
+            }
            ]
         },
         {

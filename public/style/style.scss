@@ -54,3 +54,12 @@ footer {
 	}
 	
 }
+
+img {
+	display: block;
+	width: 100%;
+	height: auto;
+	@include picture() {
+		width: 415.2px;
+	}
+}

@@ -148,4 +148,16 @@ footer {
   position: relative;
   top: 1px;
 }
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+@media (min-width: 470px) {
+  img {
+    width: 415.2px;
+  }
+}
 /*# sourceMappingURL=style.css.map */

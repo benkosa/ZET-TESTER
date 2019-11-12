@@ -47,7 +47,10 @@
         </div>
 
         <div ng-repeat="question in test.questions" ng-show="isShowing('test.name')" ng-init="questionIndex=$index">
-                <div class="question">{{$index+1}}. {{question.question}}</div>            
+                <div class="question">
+                    {{$index+1}}. {{question.question}}
+                    <img ng-show="question.picture" ng-src="{{question.picture}}" onError="question.picture = false">
+                </div>            
             
             <div ng-repeat="answer in question.answers">
                 <div class="bAnswer" ng-style="answer.color" ng-click="isRight(answer, test, question, testIndex, questionIndex)">{{answer.answer}}</div>

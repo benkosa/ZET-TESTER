@@ -10,9 +10,16 @@ $btnN:#161616;
 $btnA:#3D3D3D;
 
 $desktop: 840px;
+$picture: 470px;
 
 @mixin desktop () {
 	@media (min-width: #{$desktop}){
+		@content;
+	}
+}
+
+@mixin picture () {
+	@media (min-width: #{$picture}){
 		@content;
 	}
 }
