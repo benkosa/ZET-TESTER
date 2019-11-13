@@ -4,9 +4,12 @@ var app = angular
         $http.get("data/fullData.json").then(function(response) {
             
             /**
-             * prida do cookies ze bola zodpovedana otazka
+             * ulozi do cookies info o odpovedanej otazke
+             * @param {int - index test-u z pola objektov Test[]} testIndex 
+             * @param {int - index otazky-u z pola objektov Test[].questions[]} questionIndex 
+             * @param {int - index odpovede-u z pola objektov Test[].questions.[].answers[]} answerId              * 
              */
-            $scope.setCookies = function(testIndex, questionIndex, answerId){
+            function setCookies(testIndex, questionIndex, answerId){
                 //pocitanie expiracnej doby pre cookies
                 var now = new $window.Date(),
                 expireDate = new $window.Date(now.getFullYear(), now.getMonth()+6, now.getDate());
@@ -29,11 +32,16 @@ var app = angular
             /**
              * volam pri stalceni na odpoved
              * @param {treba si pozriet strukturu dat vo fullData.json}
+             * @param {object Test - vid. fullData.json} test 
+             * @param {object Test[].questions - vid. fullData.json} question 
+             * @param {object Test[].questions[].answers - vid. fullData.json} answer
+             * @param {int - index test-u z pola objektov Test} testIndex 
+             * @param {int - index test-u z pola objektov Test[].questions[]} questionIndex 
              */
             $scope.isRight = function(answer, test, question, testIndex, questionIndex) {
                 //pridam do cookies len pri prvom stlaceni na odpoved
                 if(question.answered == null)
-                    $scope.setCookies(testIndex, questionIndex, answer.id);
+                    setCookies(testIndex, questionIndex, answer.id);
                 
                 if(answer.right == true){
                     //ak uz nebola zodpovedana pripocitam body
@@ -59,9 +67,9 @@ var app = angular
             }
 
             /**
-             * pomiesa odpovede metodou ze zoberie nahodne dve odpovede
+             * pomiesa odpovede metodou - zoberie nahodne dve odpovede
              * a prehodi ich medzi sebou
-             * @param {treba si pozriet strukturu dat vo fullData.json} question 
+             * @param {object Test[].questions - vid. fullData.json} question 
              */
             function shuffleAnswers(question){
                 id1 = getRandomInt(0,3);
@@ -73,8 +81,10 @@ var app = angular
             }
 
             /**
-             * vynuluje body a odpovede pre dany test a premiesa odpovede
-             * @param {treba si pozriet strukturu dat vo fullData.json} test 
+             * vynuluje body a odpovede pre dany test a premiesa 
+             * odpovede, vymaze z cookies
+             * @param {object Test - vid. fullData.json} test 
+             * @param {int testId - index test-u z pola objektov Test} test 
              */
             $scope.clearTest = function(test, testId){
                 test.points = 0;
@@ -88,14 +98,25 @@ var app = angular
                     for(var i = 0; i < 3; i++)
                         shuffleAnswers(question);
                 });
+
+                //zmaze cookie
                 $cookies.remove(testId);
+            }
+
+            /**
+             * animacia zmeny spiky v menu vyberu testu
+             * @param {object Test - vid. fullData.json} test 
+             */
+            $scope.changeArrow = function(test){
+                test.arrow == "up" ? test.arrow = "down" : test.arrow = "up";
             }
 
             /////////////////////////MAIN//////////////////////////
 
             var data = response.data;
-            //prehladavame vsetky cookies
+            //po nacitani stranky nacitame cookies ak sú
             for(var i = 0; i < data.length; i++){
+                //pridanie sipky
                 data[i].arrow = "down";
                 strCookie = $cookies.get(i);
                 //ak nasiel cookie
@@ -112,27 +133,7 @@ var app = angular
                 }                
             }
 
-            $scope.changeArrow = function(test){
-                console.log(test);
-                if(test.arrow == "up")
-                    test.arrow = "down";
-                else
-                    test.arrow = "up";
-            }
-
             $scope.Data = data;
 
         });
     })
-
-    /**
-            data.forEach(function (test) {
-                test.points = 0;
-                test.questions.forEach(function (question) {
-                    question.answered = false;
-                    question.answers.forEach(function (answer) {
-                        answer.color = {'background-color': 'white'};
-                    });
-                });
-            });
-     */
