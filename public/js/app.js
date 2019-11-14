@@ -47,9 +47,9 @@ var app = angular
                     //ak uz nebola zodpovedana pripocitam body
                     if(question.answered == null)
                         test.points++;  
-                    answer.color = {'background-color': 'rgb(31, 71, 12)'};                    
+                    answer.color = {'background-color': '#80ec13'};                    
                 }else{
-                    answer.color = {'background-color': 'rgb(136, 59, 59)'};
+                    answer.color = {'background-color': '#f20d80'};
                 }
                 //nastavim ze uz otazka bola zodpovedana
                 //ochrana aby body pripocitavalo len ked trafim

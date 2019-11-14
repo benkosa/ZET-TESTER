@@ -11,13 +11,10 @@
 	height: 100%;
 }
 
-.bTest {
-	//background-color: green;
-}
 
 .bTest, .bTestSH, .bTestH {
-	background-color: $btnN;
-	border:4px solid $backgroundC;
+	background-color: $backgroundMain;
+	border:4px solid $backgroundMain;
 	display:inline-block;
 	cursor:pointer;
 	font-family:Arial;
@@ -34,9 +31,10 @@
 	@include noselect();
 
 	&:hover {
-		border-left-style: solid;
-		border-left-color: $answerBorder;
-		background-color: $btnA;
+		//border-left-style: solid;
+		//border-left-color: $answerBorder;
+		background-color: $btnHover;
+		border-radius: 10px;
 	}
 	&:active {
 		position:relative;
@@ -53,4 +51,11 @@
 .bTestSH {	
 	width: 20%;
 	text-align: center;
+	background-color: $answerBorder;
+	color: $backgroundMain;
+	border-radius: 10px;
+	&:hover {
+		background-color: #465269;
+		color: $answerBorder;
+	}
 }

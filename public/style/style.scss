@@ -8,6 +8,26 @@ body {
 	overflow-y: scroll;
 	color: $textColor;	
 }
+.main2 {
+	background: $backgroundMain;
+	border: 10px solid $backgroundMain;
+	border-radius: 10px;
+	box-shadow: 2px 2px 4px black;
+	max-width: 100%;
+	margin-bottom: 20px;
+	@include desktop() {
+		max-width: 813.168px;
+		margin: auto;
+		margin-bottom: 20px;
+	}
+}
+.questinMain{
+	background: $answerBackground;
+	border: 10px solid $answerBackground;
+	border-radius: 10px;
+	box-shadow: 1px 1px 2px black;
+	margin-bottom: 10px;
+}
 
 .main, footer {
 	max-width: 100%;
@@ -18,6 +38,7 @@ body {
 }
 
 footer {
+	background: $backgroundC;
 	padding:2% 5%;
 }
 
@@ -33,20 +54,23 @@ footer {
 .bAnswer {
 	cursor:pointer;
 	@include noselect();
-	background: $questionBackground;
+	//background: $answerBackground;
 	padding:6px;
 	font-size: 100%;
 
-	border-style: solid;
-	border-color: $questionBackground;
 
-	border-left-style: solid;
-	border-left-color: $testBorder;
+	border-style: solid;
+	border-color: $answerBackground;
+
+	background-color: $answerBorder;
+	color: $backgroundMain;
+	border-radius: 10px;
+
 	margin-top: 2px;
 	
 	&:hover {
-		border-color: $answerBorder;
-		border-style: solid;
+		background-color: #465269;
+		color: $answerBorder;
 	}
 	&:active {
 		position:relative;

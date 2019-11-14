@@ -11,8 +11,8 @@
 }
 
 .bTest, .bTestSH, .bTestH {
-  background-color: #161616;
-  border: 4px solid #101010;
+  background-color: #28292b;
+  border: 4px solid #28292b;
   display: inline-block;
   cursor: pointer;
   font-family: Arial;
@@ -38,9 +38,8 @@
 }
 
 .bTest:hover, .bTestSH:hover, .bTestH:hover {
-  border-left-style: solid;
-  border-left-color: coral;
-  background-color: #3D3D3D;
+  background-color: #3b4042;
+  border-radius: 10px;
 }
 
 .bTest:active, .bTestSH:active, .bTestH:active {
@@ -51,12 +50,20 @@
 .bTestH {
   width: 100%;
   text-align: left;
-  color: #ADADAD;
+  color: #e8eaed;
 }
 
 .bTestSH {
   width: 20%;
   text-align: center;
+  background-color: #89b4f7;
+  color: #28292b;
+  border-radius: 10px;
+}
+
+.bTestSH:hover {
+  background-color: #465269;
+  color: #89b4f7;
 }
 
 .arrow {
@@ -68,7 +75,7 @@
 }
 
 i {
-  border: solid #ADADAD;
+  border: solid #e8eaed;
   border-width: 0 3px 3px 0;
   padding: 3px;
   display: inline-block;
@@ -87,9 +94,36 @@ i {
 }
 
 body {
-  background: #101010;
+  background: #202123;
   overflow-y: scroll;
-  color: #ADADAD;
+  color: #e8eaed;
+}
+
+.main2 {
+  background: #28292b;
+  border: 10px solid #28292b;
+  border-radius: 10px;
+  -webkit-box-shadow: 2px 2px 4px black;
+          box-shadow: 2px 2px 4px black;
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 840px) {
+  .main2 {
+    max-width: 813.168px;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+}
+
+.questinMain {
+  background: #3b4042;
+  border: 10px solid #3b4042;
+  border-radius: 10px;
+  -webkit-box-shadow: 1px 1px 2px black;
+          box-shadow: 1px 1px 2px black;
+  margin-bottom: 10px;
 }
 
 .main, footer {
@@ -104,15 +138,16 @@ body {
 }
 
 footer {
+  background: #202123;
   padding: 2% 5%;
 }
 
 .question {
   font-weight: bold;
-  background: #3D3D3D;
+  background: #3b4042;
   font-size: 100%;
   padding: 9px;
-  border: 1px solid #241d13;
+  border: 1px solid #3b4042;
 }
 
 .bAnswer {
@@ -129,19 +164,19 @@ footer {
   user-select: none;
   /* Non-prefixed version, currently
 									supported by Chrome, Opera and Firefox */
-  background: #272323;
   padding: 6px;
   font-size: 100%;
   border-style: solid;
-  border-color: #272323;
-  border-left-style: solid;
-  border-left-color: #ff6127;
+  border-color: #3b4042;
+  background-color: #89b4f7;
+  color: #28292b;
+  border-radius: 10px;
   margin-top: 2px;
 }
 
 .bAnswer:hover {
-  border-color: coral;
-  border-style: solid;
+  background-color: #465269;
+  color: #89b4f7;
 }
 
 .bAnswer:active {

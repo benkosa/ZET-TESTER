@@ -34,7 +34,7 @@
     
 </head>
 <body ng-app="Module" ng-controller="mainController">
-        
+<div class = "main2">    
     <div class="main"ng-repeat="test in Data" ng-controller="shController" ng-init="testIndex=$index">        
         <div class="testName">
             <div class="bTest" ng-click="toggle('test.name'); changeArrow(test)">                
@@ -46,7 +46,7 @@
             </div>
         </div>
 
-        <div ng-repeat="question in test.questions" ng-show="isShowing('test.name')" ng-init="questionIndex=$index">
+        <div class="questinMain" ng-repeat="question in test.questions" ng-show="isShowing('test.name')" ng-init="questionIndex=$index">
                 <div class="question">
                     {{$index+1}}. {{question.question}}
                     <img ng-show="question.picture" ng-src="{{question.picture}}" onError="question.picture = false">
@@ -62,9 +62,9 @@
             <div class="arrow"><i class="up"></i></div>
         </button>
     </div>
-    
-    <footer>
-        Zdrojový kód projektu: <a target="_blank" rel="noopener noreferrer" href="https://github.com/benkosa/ZET-TESTER/tree/master">github.com/benkosa</a>
-    </footer>
+</div>
+<footer>
+    Zdrojový kód projektu: <a target="_blank" rel="noopener noreferrer" href="https://github.com/benkosa/ZET-TESTER/tree/master">github.com/benkosa</a>
+</footer>
 </body>
 </html>
