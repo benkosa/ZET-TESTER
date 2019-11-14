@@ -3043,7 +3043,7 @@
               },
               {
                  "answer":"S = 5 + MPS * Yd",
-                 "right":true,
+                 "right":false,
                  "id":1
               },
               {
@@ -3053,7 +3053,7 @@
               },
               {
                  "answer":"S = 5 + MPC * Yd",
-                 "right":false,
+                 "right":true,
                  "id":3
               }
            ]
@@ -3063,12 +3063,12 @@
            "answers":[
               {
                  "answer":"0.10",
-                 "right":false,
+                 "right":true,
                  "id":0
               },
               {
                  "answer":"0.20",
-                 "right":true,
+                 "right":false,
                  "id":1
               },
               {
@@ -3440,7 +3440,7 @@
            ]
         },
         {
-           "question":"Nakreslite na grafe ponuky a dopytu na trhu statkov a služieb príklad štatom stanovenej minimalnej ceny",
+           "question":"Nakreslite na grafe ponuky a dopytu na trhu statkov a služieb príklad štatom stanovenej minimalnej ceny ",
            "picture": "data/pictures/t08q15.png",
            "answers":[
             {
@@ -4554,7 +4554,7 @@
            ]
         },
         {
-           "question":"Na obrázku je krivka AS:",
+           "question":"Na obrázku je krivka AS: (neviem správnu odpoveď, treba to poriešiť na discorde)",
            "picture": "data/pictures/t10q17.png",
            "answers":[
               {
@@ -4569,7 +4569,7 @@
               },
               {
                  "answer":"V krátko období podla Keynesa",
-                 "right":true,
+                 "right":false,
                  "id":2
               },
               {
@@ -4580,7 +4580,7 @@
            ]
         },
         {
-           "question":"Na obrázku je krivka:",
+           "question":"Na obrázku je krivka: (neviem správnu odpoveď, treba to poriešiť na discorde)",
            "picture": "data/pictures/t10q18.png",
            "answers":[
               {
@@ -4595,7 +4595,7 @@
               },
               {
                  "answer":"AD v dlhom období podla neokynesovcov",
-                 "right":true,
+                 "right":false,
                  "id":2
               },
               {
@@ -4606,7 +4606,7 @@
            ]
         },
         {
-           "question":"Na obrázku je rovnováha:",
+           "question":"Na obrázku je rovnováha: (neviem správnu odpoveď, treba to poriešiť na discorde)",
            "picture": "data/pictures/t10q19.png",
            "answers":[
               {
@@ -4621,7 +4621,7 @@
               },
               {
                  "answer":"na agregátnom trhu podla neokynesovcov",
-                 "right":true,
+                 "right":false,
                  "id":2
               },
               {
