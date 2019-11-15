@@ -52,7 +52,8 @@ var app = angular
                     }
                     answer.color = "right";                    
                 }else{
-                    test.points = 0;
+                    if (test.points == null)
+                        test.points = 0;
                     answer.color = "wrong";
                 }
                 //nastavim ze uz otazka bola zodpovedana
