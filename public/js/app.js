@@ -45,10 +45,14 @@ var app = angular
                 
                 if(answer.right == true){
                     //ak uz nebola zodpovedana pripocitam body
-                    if(question.answered == null)
-                        test.points++;  
+                    if(question.answered == null){
+                        if (test.points == null)
+                            test.points = 0;
+                        test.points+=1;
+                    }
                     answer.color = "right";                    
                 }else{
+                    test.points = 0;
                     answer.color = "wrong";
                 }
                 //nastavim ze uz otazka bola zodpovedana
@@ -87,7 +91,7 @@ var app = angular
              * @param {int testId - index test-u z pola objektov Test} test 
              */
             $scope.clearTest = function(test, testId){
-                test.points = 0;
+                test.points = undefined;
                 test.questions.forEach(function (question) {
                     question.answered = null;
                     question.answers.forEach(function (answer) {
@@ -109,6 +113,15 @@ var app = angular
              */
             $scope.changeArrow = function(test){
                 test.arrow == "up" ? test.arrow = "down" : test.arrow = "up";
+            }
+
+            $scope.changeClassSHBtn = function(test){
+                if (test.points == null)
+                    return "SHBtn_def"
+                if (test.points < test.questions.length)
+                    return "SHBtn_red"                
+                if (test.points == test.questions.length)
+                    return "SHBtn_gre"
             }
 
             /////////////////////////MAIN//////////////////////////

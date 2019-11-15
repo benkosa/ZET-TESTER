@@ -10,7 +10,7 @@
   height: 100%;
 }
 
-.bTest, .bTestSH, .bTestH {
+.bTest, .SHBtn_def, .bTestH, .SHBtn_red, .SHBtn_gre {
   background-color: #28292b;
   border: 4px solid #28292b;
   display: inline-block;
@@ -36,12 +36,12 @@
 									supported by Chrome, Opera and Firefox */
 }
 
-.bTest:hover, .bTestSH:hover, .bTestH:hover {
+.bTest:hover, .SHBtn_def:hover, .bTestH:hover, .SHBtn_red:hover, .SHBtn_gre:hover {
   background-color: #3b4042;
   border-radius: 10px;
 }
 
-.bTest:active, .bTestSH:active, .bTestH:active {
+.bTest:active, .SHBtn_def:active, .bTestH:active, .SHBtn_red:active, .SHBtn_gre:active {
   position: relative;
   top: 1px;
 }
@@ -60,7 +60,7 @@
   border-radius: 10px;
 }
 
-.bTestSH {
+.SHBtn_def, .SHBtn_red, .SHBtn_gre {
   width: 20%;
   text-align: center;
   background-color: #89b4f7;
@@ -68,8 +68,28 @@
   border-radius: 10px;
 }
 
-.bTestSH:hover {
+.SHBtn_def:hover, .SHBtn_red:hover, .SHBtn_gre:hover {
   background-color: #465269;
+  color: #89b4f7;
+}
+
+.SHBtn_red {
+  background-color: #f20d80;
+  color: #28292b;
+}
+
+.SHBtn_red:hover {
+  background-color: #790640;
+  color: #89b4f7;
+}
+
+.SHBtn_gre {
+  background-color: #80ec13;
+  color: #28292b;
+}
+
+.SHBtn_gre:hover {
+  background-color: #40750a;
   color: #89b4f7;
 }
 
