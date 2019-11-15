@@ -1,16 +1,19 @@
 @import "./variablesMixin";
 @import "./btnTest";
+@import "./btnAnswer";
 @import "./arrow";
 
 
 body {
-	background: $backgroundC;
+	background: $black;
 	overflow-y: scroll;
-	color: $textColor;	
+	color: $white;
+	font-family: 'Open Sans', sans-serif;
 }
+
 .main2 {
-	background: $backgroundMain;
-	border: 10px solid $backgroundMain;
+	background: $dark;
+	border: 10px solid $dark;
 	border-radius: 10px;
 	box-shadow: 2px 2px 4px black;
 	max-width: 100%;
@@ -21,12 +24,21 @@ body {
 		margin-bottom: 20px;
 	}
 }
+
 .questinMain{
-	background: $answerBackground;
-	border: 10px solid $answerBackground;
+	background: $gray;
+	border: 10px solid $gray;
 	border-radius: 10px;
 	box-shadow: 1px 1px 2px black;
 	margin-bottom: 10px;
+}
+
+.question {
+	font-weight:bold;
+	background: $gray;
+	font-size: 100%;
+	padding:9px;
+	border:1px solid $gray;
 }
 
 .main, footer {
@@ -38,46 +50,10 @@ body {
 }
 
 footer {
-	background: $backgroundC;
+	background: $black;
 	padding:2% 5%;
 }
 
-.question {
-	font-weight:bold;
-	background: $btnHover;
-	font-size: 100%;
-	padding:9px;
-	border:1px solid $answerBackground;
-}
-
-
-.bAnswer {
-	cursor:pointer;
-	@include noselect();
-	//background: $answerBackground;
-	padding:6px;
-	font-size: 100%;
-
-
-	border-style: solid;
-	border-color: $answerBackground;
-
-	background-color: $answerBorder;
-	color: $backgroundMain;
-	border-radius: 10px;
-
-	margin-top: 2px;
-	
-	&:hover {
-		background-color: #465269;
-		color: $answerBorder;
-	}
-	&:active {
-		position:relative;
-		top:1px;
-	}
-	
-}
 
 img {
 	display: block;

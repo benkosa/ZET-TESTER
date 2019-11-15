@@ -47,9 +47,9 @@ var app = angular
                     //ak uz nebola zodpovedana pripocitam body
                     if(question.answered == null)
                         test.points++;  
-                    answer.color = {'background-color': '#80ec13'};                    
+                    answer.color = "right";                    
                 }else{
-                    answer.color = {'background-color': '#f20d80'};
+                    answer.color = "wrong";
                 }
                 //nastavim ze uz otazka bola zodpovedana
                 //ochrana aby body pripocitavalo len ked trafim
@@ -91,7 +91,7 @@ var app = angular
                 test.questions.forEach(function (question) {
                     question.answered = null;
                     question.answers.forEach(function (answer) {
-                        answer.color = {'background-color': null};
+                        answer.color = null;
                     });
 
                     //pre vacsiu  nahodnost premiesavam tri krat

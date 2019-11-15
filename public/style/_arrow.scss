@@ -1,24 +1,25 @@
-.arrow {
+.arrow, .arrowH {
 	display: inline-block;
 	float: right;
-	//background-color: yellow;
 	display: table-cell;
 	width: 2%;
 	height: 100%;
 }
 
 i {
-	border: solid $textColor;
+	border: solid $white;
 	border-width: 0 3px 3px 0;
 	padding: 3px;
 	display: inline-block;
 	vertical-align: center;
 	float: right;
-	//background-color: blue;
 } 
-.up {
+.up, .upH {
 	transform: rotate(-135deg);
 	-webkit-transform: rotate(-135deg);
+}
+.upH{
+	border-color: $dark;
 }
   
 .down {

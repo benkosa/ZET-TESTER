@@ -29,6 +29,7 @@
     <script src="js/angular.js"></script>
     <script src="js/app.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular-cookies.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
     <script src="js/shController.js"></script>
     <link href="style/style.css" rel="stylesheet"/>
     
@@ -53,13 +54,13 @@
                 </div>            
             
             <div ng-repeat="answer in question.answers">
-                <div class="bAnswer" ng-style="answer.color" ng-click="isRight(answer, test, question, testIndex, questionIndex)">{{answer.answer}}</div>
+                <div class="{{answer.color == null ? 'bAnswer' : answer.color}}" ng-click="isRight(answer, test, question, testIndex, questionIndex)">{{answer.answer}}</div>
             </div>
         </div>
 
         <button class="bTestH" ng-show="isShowing('test.name')" ng-click="toggle('test.name'); changeArrow(test)">
             Skry test
-            <div class="arrow"><i class="up"></i></div>
+            <div class="arrow"><i class="upH"></i></div>
         </button>
     </div>
 </div>
