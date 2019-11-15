@@ -116,12 +116,12 @@ var app = angular
             }
 
             $scope.changeClassSHBtn = function(test){
-                if (test.points == null)
-                    return "SHBtn_def"
                 if (test.points < test.questions.length)
                     return "SHBtn_red"                
                 if (test.points == test.questions.length)
                     return "SHBtn_gre"
+                    
+                return "SHBtn_def"
             }
 
             /////////////////////////MAIN//////////////////////////
