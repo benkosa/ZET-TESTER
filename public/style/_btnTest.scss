@@ -5,7 +5,6 @@
 
 .testText {
 	float: left;
-	//background-color: red;
 	display: table-cell;
 	width: 92%;
 	height: 100%;
@@ -31,8 +30,6 @@
 	@include noselect();
 
 	&:hover {
-		//border-left-style: solid;
-		//border-left-color: $gray;
 		background-color: $gray;
 		border-radius: 10px;
 	}
