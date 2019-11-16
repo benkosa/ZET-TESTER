@@ -18,6 +18,7 @@
   font-size: 105%;
   font-weight: bold;
   padding: 9px 23px;
+  padding-left: 9px;
   text-decoration: none;
   display: table-cell;
   width: 80%;
@@ -61,6 +62,7 @@
 }
 
 .SHBtn_def, .SHBtn_red, .SHBtn_gre {
+  padding: 9px 9px;
   width: 20%;
   text-align: center;
   background-color: #89b4f7;
