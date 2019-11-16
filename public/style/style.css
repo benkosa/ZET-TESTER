@@ -1,6 +1,9 @@
 .testName {
   display: table;
   width: 100%;
+  border-spacing: 5px;
+  margin: -5px;
+  margin-bottom: 2px;
 }
 
 .testText {
@@ -12,7 +15,7 @@
 
 .bTest, .SHBtn_def, .bTestH, .SHBtn_red, .SHBtn_gre {
   background-color: #28292b;
-  border: 4px solid #28292b;
+  border: 2px solid transparent;
   display: inline-block;
   cursor: pointer;
   font-size: 105%;
@@ -111,7 +114,7 @@
 									supported by Chrome, Opera and Firefox */
   padding: 6px;
   font-size: 100%;
-  border-width: 2px;
+  border-width: 1px;
   border-style: solid;
   border-color: #5E6367;
   border-radius: 7px;
