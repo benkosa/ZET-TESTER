@@ -2,6 +2,7 @@
 .vscode/
 .firebaserc
 firebase.json
+public/style/style.css.map
 
 #defaulut from firebase
 
