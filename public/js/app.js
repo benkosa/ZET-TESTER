@@ -55,11 +55,17 @@ var app = angular
                     if (test.points == null)
                         test.points = 0;
                     answer.color = "wrong";
+
+                    question.answers.forEach(function (trueAnswer) {
+                        if(trueAnswer.right == true)
+                            trueAnswer.color = "right";
+                    });
                 }
                 //nastavim ze uz otazka bola zodpovedana
                 //ochrana aby body pripocitavalo len ked trafim
                 //odpoved na prvy krat
                 question.answered = true;
+                
             };    
 
             /**
