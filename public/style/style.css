@@ -237,6 +237,18 @@ body {
   }
 }
 
+.settings {
+  display: table;
+  width: 100%;
+  border-spacing: 6px;
+}
+
+.settings .bTestH {
+  display: table-cell;
+  width: 50%;
+  text-align: center;
+}
+
 footer {
   background: #202123;
   padding: 2% 5%;

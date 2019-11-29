@@ -63,6 +63,14 @@
             <div class="arrow"><i class="upH"></i></div>
         </button>
     </div>
+    <div class="settings">
+        <div class="bTestH" ng-click="showAnswers = !showAnswers;">
+                {{(showAnswers ? "Vypnúť" : "Zapnúť") + " zobrazovanie správnych odpovedí"}}            
+        </div>
+        <div class="bTestH" ng-click="canShuffle = !canShuffle;">
+                {{(canShuffle ? "Vypnúť" : "Zapnúť") + " miešanie otázok"}}            
+        </div>
+    </div>
 </div>
 <footer>
     Zdrojový kód projektu: <a target="_blank" rel="noopener noreferrer" href="https://github.com/benkosa/ZET-TESTER/tree/master">github.com/benkosa</a>

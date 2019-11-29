@@ -56,10 +56,11 @@ var app = angular
                         test.points = 0;
                     answer.color = "wrong";
 
-                    question.answers.forEach(function (trueAnswer) {
-                        if(trueAnswer.right == true)
-                            trueAnswer.color = "right";
-                    });
+                    if($scope.showAnswers == true)
+                        question.answers.forEach(function (trueAnswer) {
+                            if(trueAnswer.right == true)
+                                trueAnswer.color = "right";
+                        });
                 }
                 //nastavim ze uz otazka bola zodpovedana
                 //ochrana aby body pripocitavalo len ked trafim
@@ -83,12 +84,14 @@ var app = angular
              * @param {object Test[].questions - vid. fullData.json} question 
              */
             function shuffleAnswers(question){
-                id1 = getRandomInt(0,3);
-                id2 = getRandomInt(0,3);
-                tmp = question.answers[id1];
+                if($scope.canShuffle == true){
+                    id1 = getRandomInt(0,3);
+                    id2 = getRandomInt(0,3);
+                    tmp = question.answers[id1];
 
-                question.answers[id1] = question.answers[id2];
-                question.answers[id2] = tmp;
+                    question.answers[id1] = question.answers[id2];
+                    question.answers[id2] = tmp;
+                }
             }
 
             /**
@@ -152,7 +155,8 @@ var app = angular
                     });
                 }                
             }
-
+            $scope.showAnswers = true;
+            $scope.canShuffle = true;
             $scope.Data = data;
 
         });
