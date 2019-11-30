@@ -37,7 +37,7 @@
 <body ng-app="Module" ng-controller="mainController">
 <div class = "main2">    
     <div class="main"ng-repeat="test in Data" ng-controller="shController" ng-init="testIndex=$index">        
-        <div class="testName">
+        <div class="testName" id="{{$index}}">
             <div class="bTest" ng-click="toggle('test.name'); changeArrow(test)">                
                 <div class="testText">{{test.name}}</div>
                 <div class="arrow"><i class={{test.arrow}}></i></div>
