@@ -123,6 +123,11 @@ var app = angular
              */
             $scope.changeArrow = function(test){
                 test.arrow == "up" ? test.arrow = "down" : test.arrow = "up";
+
+                if (test.arrow == "down"){
+                    document.body.scrollTop = 0; // For Safari
+                    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+                }
             }
 
             $scope.changeClassSHBtn = function(test){
@@ -155,6 +160,7 @@ var app = angular
                     });
                 }                
             }
+
             $scope.showAnswers = true;
             $scope.canShuffle = true;
             $scope.Data = data;

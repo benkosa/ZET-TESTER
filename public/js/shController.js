@@ -1,6 +1,6 @@
 /// [reference path="app.js" /]
 app
-.controller('shController', function($scope) {
+.controller('shController', function($scope, $anchorScroll, $location) {
     $scope.showing = {};
     
     $scope.isShowing = function(id) {

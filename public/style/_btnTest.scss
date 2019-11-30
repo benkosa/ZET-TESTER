@@ -4,7 +4,15 @@
 	border-spacing:5px;
 	margin: -5px;
 	margin-bottom: 2px;
+	background: $dark;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	padding-right: 10px;
+	top: 0;
+	position: -webkit-sticky;
+	position: sticky;
 }
+
 
 .testText {
 	float: left;
