@@ -162,17 +162,18 @@ var app = angular
             }
 
             var prevScrollpos = window.pageYOffset;
-            window.onscroll = function() {
-                for(var i = 0; i < data.length; i++){
-                    var currentScrollPos = window.pageYOffset;
-                    if (prevScrollpos > currentScrollPos) {
-                        document.getElementById(i).style.top = "0";
-                    } else {
-                        document.getElementById(i).style.top = "-100%";
-                    }
-                    prevScrollpos = currentScrollPos;
+            window.onscroll = function() {                
+                var currentScrollPos = window.pageYOffset;
+                if (prevScrollpos > currentScrollPos) {
+                    for(var i = 0; i < data.length; i++)
+                        document.getElementById(i.toString()).style.top = "0";
+                } else {
+                    for(var i = 0; i < data.length; i++)
+                        document.getElementById(i.toString()).style.top = "-100%";
                 }
+                prevScrollpos = currentScrollPos;                
             }
+
 
             $scope.showAnswers = true;
             $scope.canShuffle = true;
