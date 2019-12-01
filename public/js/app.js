@@ -121,13 +121,16 @@ var app = angular
              * animacia zmeny spiky v menu vyberu testu
              * @param {object Test - vid. fullData.json} test 
              */
+            var lastScroll = 0;
+
             $scope.changeArrow = function(test){
                 test.arrow == "up" ? test.arrow = "down" : test.arrow = "up";
 
                 if (test.arrow == "down"){
-                    document.body.scrollTop = 0; // For Safari
-                    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-                }
+                    document.documentElement.scrollTo(0,lastScroll);
+                }else
+                    lastScroll = document.documentElement.scrollTop;
+                    
             }
 
             $scope.changeClassSHBtn = function(test){

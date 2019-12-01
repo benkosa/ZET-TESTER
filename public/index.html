@@ -44,7 +44,7 @@
                 <div class="arrow"><i class={{test.arrow}}></i></div>
             </div>
             <div class="{{changeClassSHBtn(test)}}" ng-click="clearTest(test, testIndex)">
-                {{(test.points == null ? "0" : test.points) + "/" + test.questions.length + (test.points != null ? ' &#x21bb' : "  ")}}
+                {{(test.points == null ? "00" : (test.points < 10 ? "0"+test.points : test.points)) + "/" + test.questions.length + (test.points != null ? ' &#x21bb' : "  ")}}
             </div>
         </div>
 

@@ -74,6 +74,7 @@
 }
 
 .SHBtn_def, .SHBtn_red, .SHBtn_gre {
+  padding: 9px 16px;
   width: 20%;
   text-align: center;
   background-color: #89b4f7;
