@@ -1238,7 +1238,7 @@
            ]
         },
         {
-           "question":"Ktoré tvrdenie je nesprávne? Poznáme:",
+           "question":"Ktoré tvrdenie je nesprávne?<br> Poznáme:",
            "answers":[
               {
                  "answer":"prirodzenú, technologickú delbu práce",
@@ -2666,12 +2666,12 @@
                  "id":1
               },
               {
-                 "answer":"? S/? Y",
+                 "answer":"ΔS/ΔY",
                  "right":true,
                  "id":2
               },
               {
-                 "answer":"? Y/? S",
+                 "answer":"ΔY/ΔS",
                  "right":false,
                  "id":3
               }
@@ -5135,7 +5135,7 @@
            "question":"Medzi ciele monetárnej politiky patrí:",
            "answers":[
               {
-                 "answer":"cenévá a menová stabilita",
+                 "answer":"cenová a menová stabilita",
                  "right":true,
                  "id":0
               },
