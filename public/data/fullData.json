@@ -2607,7 +2607,7 @@
            "answers":[
               {
                  "answer":"predposlednú penažnú jednotku vynaloženú na spotrebu",
-                 "right":true,
+                 "right":false,
                  "id":0
               },
               {
@@ -2617,7 +2617,7 @@
               },
               {
                  "answer":"o kolko sa zvýši spotreba ludí, ak ich príjem vzrastie o jednu penažnú jednotku",
-                 "right":false,
+                 "right":true,
                  "id":2
               },
               {
