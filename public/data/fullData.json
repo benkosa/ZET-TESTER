@@ -4454,7 +4454,7 @@
                  "id":0
               },
               {
-                 "answer":"posúva krivku agregátneho dopytu dolava",
+                 "answer":"posúva krivku agregátneho dopytu doľava",
                  "right":true,
                  "id":1
               },
@@ -4539,7 +4539,7 @@
                  "id":2
               },
               {
-                 "answer":"velmi nízke",
+                 "answer":"veľmi nízke",
                  "right":false,
                  "id":3
               }
@@ -4550,48 +4550,48 @@
            "picture": "data/pictures/t10q17.png",
            "answers":[
               {
-                 "answer":"v krátkom období podla klasikov",
+                 "answer":"v krátkom období podľa klasikov",
                  "right":false,
                  "id":0
               },
               {
-                 "answer":"v dlhom období podla klasikov",
+                 "answer":"v dlhom období podľa klasikov",
                  "right":true,
                  "id":1
               },
               {
-                 "answer":"V krátko období podla Keynesa",
+                 "answer":"V krátkom období podľa Keynesa",
                  "right":false,
                  "id":2
               },
               {
-                 "answer":"V dlhom období podla Laffera",
+                 "answer":"V dlhom období podľa Laffera",
                  "right":false,
                  "id":3
               }
            ]
         },
         {
-           "question":"Na obrázku je krivka: (spravna je podla Keynesa ale neviem ci v dlhom alebo kratkom)",
+           "question":"Na obrázku je krivka: (správna je podľa Keynesa ale neviem či v dlhom alebo krátkom)",
            "picture": "data/pictures/t10q18.png",
            "answers":[
               {
-                 "answer":"AD v krátkom období podla klasikov",
+                 "answer":"AD v krátkom období podľa klasikov",
                  "right":false,
                  "id":0
               },
               {
-                 "answer":"AS v krátkom období podla Keynesa",
+                 "answer":"AS v krátkom období podľa Keynesa",
                  "right":false,
                  "id":1
               },
               {
-                 "answer":"AD v dlhom období podla neokynesovcov",
+                 "answer":"AD v dlhom období podľa neokeynesovcov",
                  "right":false,
                  "id":2
               },
               {
-                 "answer":"AS v dlhom období podla Keynesa",
+                 "answer":"AS v dlhom období podľa Keynesa",
                  "right":false,
                  "id":3
               }
@@ -4602,22 +4602,22 @@
            "picture": "data/pictures/t10q19.png",
            "answers":[
               {
-                 "answer":"na agregátnom trhu podla klasikov",
+                 "answer":"na agregátnom trhu podľa klasikov",
                  "right":true,
                  "id":0
               },
               {
-                 "answer":"na agregátnom trhu podla Keynesa",
+                 "answer":"na agregátnom trhu podľa Keynesa",
                  "right":false,
                  "id":1
               },
               {
-                 "answer":"na agregátnom trhu podla neokynesovcov",
+                 "answer":"na agregátnom trhu podľa neokeynesovcov",
                  "right":false,
                  "id":2
               },
               {
-                 "answer":"žiadna z odpovedí nieje správna",
+                 "answer":"žiadna z odpovedí nie je správna",
                  "right":false,
                  "id":3
               }
@@ -4628,22 +4628,22 @@
            "picture": "data/pictures/t10q20.png",
            "answers":[
               {
-               "answer":"na agregátnom trhu podla klasikov",
+               "answer":"na agregátnom trhu podľa klasikov",
                "right":false,
                "id":0
             },
             {
-               "answer":"na agregátnom trhu podla Keynesa",
+               "answer":"na agregátnom trhu podľa Keynesa",
                "right":false,
                "id":1
             },
             {
-               "answer":"na agregátnom trhu podla neokynesovcov",
+               "answer":"na agregátnom trhu podľa neokeynesovcov",
                "right":true,
                "id":2
             },
             {
-               "answer":"žiadna z odpovedí nieje správna",
+               "answer":"žiadna z odpovedí nie je správna",
                "right":false,
                "id":3
               }
@@ -4658,12 +4658,12 @@
            "question":"Čo nepatrí medzi vlastnosti peňazí:",
            "answers":[
               {
-                 "answer":"sú výmennym prostriedkom",
+                 "answer":"sú výmenným prostriedkom",
                  "right":false,
                  "id":0
               },
               {
-                 "answer":"majú vlastnú vnútornu hodnotu",
+                 "answer":"majú vlastnú vnútornú hodnotu",
                  "right":true,
                  "id":1
               },
@@ -4688,17 +4688,17 @@
                  "id":0
               },
               {
-                 "answer":"byt akceptované ostatnými štátmi sveta",
+                 "answer":"byť akceptované ostatnými štátmi sveta",
                  "right":false,
                  "id":1
               },
               {
-                 "answer":"byt deklarované bankou",
+                 "answer":"byť deklarované bankou",
                  "right":false,
                  "id":2
               },
               {
-                 "answer":"mat vlastnú vnútornu úžitkovu hodnotu",
+                 "answer":"mať vlastnú vnútornú úžitkovú hodnotu",
                  "right":false,
                  "id":3
               }
@@ -4718,7 +4718,7 @@
                  "id":1
               },
               {
-                 "answer":"tovarove peniaze",
+                 "answer":"tovarové peniaze",
                  "right":true,
                  "id":2
               },
@@ -4730,7 +4730,7 @@
            ]
         },
         {
-           "question":"Tým, že peniaze vyjadruju cenu statkov a služieb, pohľadávok a záväzkov, majetkových aktív a pasív, účtujú sa v nich účtovné jednotky a štát nimi vyjadruje veľkosť niektorých makroekonomických agregátnych ukazateľov, plnia funkciu: ",
+           "question":"Tým, že peniaze vyjadrujú cenu statkov a služieb, pohľadávok a záväzkov, majetkových aktív a pasív, účtujú sa v nich účtovné jednotky a štát nimi vyjadruje veľkosť niektorých makroekonomických agregátnych ukazateľov, plnia funkciu: ",
            "answers":[
               {
                  "answer":"štandardu odložených platieb",
@@ -4743,7 +4743,7 @@
                  "id":1
               },
               {
-                 "answer":"záctovacej jednotky",
+                 "answer":"zúčtovacej jednotky",
                  "right":true,
                  "id":2
               },
@@ -4793,12 +4793,12 @@
                  "id":1
               },
               {
-                 "answer":"množstvo SaS, ktoré je schopná nakúpit domácnost za minimálnu mzdu",
+                 "answer":"množstvo SaS, ktoré je schopná nakúpiť domácnosť za minimálnu mzdu",
                  "right":false,
                  "id":2
               },
               {
-                 "answer":"výmenny kurz vnútornej a zahranicnej meny",
+                 "answer":"výmenny kurz vnútornej a zahraničnej meny",
                  "right":false,
                  "id":3
               }
@@ -4808,17 +4808,17 @@
            "question":"Vo Fisherovej rovnici výmeny: M . V = P . Q premenná \"V\" znamená:",
            "answers":[
               {
-                 "answer":"priemernu úroven cien",
+                 "answer":"priemernú úroveň cien",
                  "right":false,
                  "id":0
               },
               {
-                 "answer":"množstvo penazí v obehu",
+                 "answer":"množstvo peňazí v obehu",
                  "right":false,
                  "id":1
               },
               {
-                 "answer":"rýchlost obehu penazí",
+                 "answer":"rýchlosť obehu peňazí",
                  "right":true,
                  "id":2
               },
