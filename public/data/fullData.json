@@ -4095,12 +4095,12 @@
            "answers":[
               {
                  "answer":"85",
-                 "right":false,
+                 "right":true,
                  "id":0
               },
               {
                  "answer":"90",
-                 "right":true,
+                 "right":false,
                  "id":1
               },
               {
@@ -4743,7 +4743,7 @@
                  "id":1
               },
               {
-                 "answer":"záctovacej jednotky",
+                 "answer":"zúčtovacej jednotky",
                  "right":true,
                  "id":2
               },
