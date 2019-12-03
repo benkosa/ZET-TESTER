@@ -5157,7 +5157,7 @@
            ]
         },
         {
-           "question":"Ak: CPI(2013) = 164,1; CPI(2014) = 164; CPI(2012) = 161,9; potom miera inflácie v roku 2013 bude:",
+           "question":"Ak:<br> CPI(2013) = 164,1<br> CPI(2014) = 164<br> CPI(2012) = 161,9<br> potom miera inflácie v roku 2013 bude:",
            "answers":[
               {
                  "answer":"0.0135",
