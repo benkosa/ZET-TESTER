@@ -4091,7 +4091,7 @@
            ]
         },
         {
-           "question":"Ak: čisté investície = 20, spotreba domácnosti = 55, výdavky vlády na SaS = 15, export = 85, amortizácia = 5, import = 90, potom veľkosť HDP bude:",
+           "question":"Ak:<br/> čisté investície = 20,<br/> spotreba domácnosti = 55,<br/> výdavky vlády na SaS = 15,<br/> export = 85,<br/> amortizácia = 5,<br/> import = 90,<br/> potom veľkosť HDP bude:",
            "answers":[
               {
                  "answer":"85",
@@ -4116,7 +4116,7 @@
            ]
         },
         {
-           "question":"Ak: amortizácia = 5, národný dôchodok = 40, daň z pridanej hodnoty = 4, spotrebné dane = 3, potom veľkosť ČDP bude:",
+           "question":"Ak:<br/> amortizácia = 5,<br/> národný dôchodok = 40,<br/> daň z pridanej hodnoty = 4,<br/> spotrebné dane = 3,<br/> potom veľkosť ČDP bude:",
            "answers":[
               {
                  "answer":"47",

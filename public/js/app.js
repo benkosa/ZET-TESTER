@@ -1,5 +1,5 @@
 var app = angular
-    .module("Module", ['ngCookies'])    
+    .module("Module", ['ngCookies', 'ngSanitize'])    
     .controller("mainController", function ($scope, $http, $cookies, $window) {
         $http.get("data/fullData.json").then(function(response) {
             
@@ -183,4 +183,5 @@ var app = angular
             $scope.Data = data;
 
         });
+
     })
