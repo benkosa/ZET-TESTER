@@ -3058,7 +3058,7 @@
            "answers":[
               {
                  "answer":"0.10",
-                 "right":true,
+                 "right":false,
                  "id":0
               },
               {
@@ -3073,7 +3073,7 @@
               },
               {
                  "answer":"0.90",
-                 "right":false,
+                 "right":true,
                  "id":3
               }
            ]
@@ -4546,7 +4546,7 @@
            ]
         },
         {
-           "question":"Na obrázku je krivka AS: (neviem správnu odpoveď, treba to poriešiť na discorde)",
+           "question":"Na obrázku je krivka AS:",
            "picture": "data/pictures/t10q17.png",
            "answers":[
               {
@@ -4555,8 +4555,8 @@
                  "id":0
               },
               {
-                 "answer":"v dlhom obdoi podla klasikov",
-                 "right":false,
+                 "answer":"v dlhom období podla klasikov",
+                 "right":true,
                  "id":1
               },
               {
@@ -4572,7 +4572,7 @@
            ]
         },
         {
-           "question":"Na obrázku je krivka: (neviem správnu odpoveď, treba to poriešiť na discorde)",
+           "question":"Na obrázku je krivka: (spravna je podla Keynesa ale neviem ci v dlhom alebo kratkom)",
            "picture": "data/pictures/t10q18.png",
            "answers":[
               {
@@ -4598,12 +4598,12 @@
            ]
         },
         {
-           "question":"Na obrázku je rovnováha: (neviem správnu odpoveď, treba to poriešiť na discorde)",
+           "question":"Na obrázku je rovnováha: ",
            "picture": "data/pictures/t10q19.png",
            "answers":[
               {
                  "answer":"na agregátnom trhu podla klasikov",
-                 "right":false,
+                 "right":true,
                  "id":0
               },
               {
