@@ -3042,12 +3042,12 @@
                  "id":1
               },
               {
-                 "answer":"S = -5 + MPC * Yd",
+                 "answer":"C = -5 + MPC * Yd",
                  "right":false,
                  "id":2
               },
               {
-                 "answer":"S = 5 + MPC * Yd",
+                 "answer":"C = 5 + MPC * Yd",
                  "right":true,
                  "id":3
               }
