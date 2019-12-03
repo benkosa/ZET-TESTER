@@ -41,6 +41,7 @@
 <body ng-app="Module" ng-controller="mainController">
 <div class = "main2">    
     <div class="main"ng-repeat="test in Data" ng-controller="shController" ng-init="testIndex=$index">        
+        
         <div class="testName" id="{{$index}}">
             <div class="bTest" ng-click="toggle('test.name'); changeArrow(test)">                
                 <div class="testText">{{test.name}}</div>
@@ -61,13 +62,15 @@
                 <div class="{{answer.color == null ? 'bAnswer' : answer.color}}" ng-click="isRight(answer, test, question, testIndex, questionIndex)">{{answer.answer}}</div>
             </div>
         </div>
+        
     </div>
+    
     <div class="settings">
         <div class="bTestH" ng-click="showAnswers = !showAnswers;">
                 {{(showAnswers ? "Vypnúť" : "Zapnúť") + " zobrazovanie správnych odpovedí"}}            
         </div>
         <div class="bTestH" ng-click="canShuffle = !canShuffle;">
-                {{(canShuffle ? "Vypnúť" : "Zapnúť") + " miešanie otázok"}}            
+                {{(canShuffle ? "Vypnúť" : "Zapnúť") + " miešanie odpovedí"}}            
         </div>
     </div>
 </div>
