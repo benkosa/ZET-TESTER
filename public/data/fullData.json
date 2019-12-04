@@ -4144,7 +4144,7 @@
   },
   {
      "name":"10. Agregátny thr",
-     "info": "Informatici nemusia vedieť tento test(overené u cvičiacej)",
+     "info": "Informatici nemusia vedieť tento test (overené u cvičiacej)",
      "questions":[
         {
            "question":"Agregátny dopyt predstavuje:",

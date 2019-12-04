@@ -40,9 +40,8 @@
 </head>
 <body ng-app="Module" ng-controller="mainController">
 <div class = "main2">
-    <div>Pozvánka do discord skupiny (pre prvákov informatikov):
+    <div class="questinMain question">Pozvánka do spoločnej discord skupiny (pre prvákov informatikov):
         <a href="https://discord.gg/PFBr2TK" target="_blank">https://discord.gg/PFBr2TK</a>
-        <br> <br> 
     </div>    
     <div class="main"ng-repeat="test in Data" ng-controller="shController" ng-init="testIndex=$index">        
         
@@ -56,7 +55,9 @@
             </div>
         </div>
 
-        <div class="info" ng-show="isShowing('test.name')">{{test.info != null ? test.info : ""}}</div>
+        <div class="{{test.info != null ? 'questinMain question' : ''}}" ng-show="isShowing('test.name')">
+            {{test.info != null ? test.info : ""}}
+        </div>
 
         <div class="questinMain" ng-repeat="question in test.questions" ng-show="isShowing('test.name')" ng-init="questionIndex=$index">
                 <div class="question">
