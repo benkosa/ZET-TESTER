@@ -52,6 +52,8 @@
             </div>
         </div>
 
+        <div class="info" ng-show="isShowing('test.name')">{{test.info != null ? test.info : ""}}</div>
+
         <div class="questinMain" ng-repeat="question in test.questions" ng-show="isShowing('test.name')" ng-init="questionIndex=$index">
                 <div class="question">
                     <span ng-bind-html="$index+1+'. '+question.question"></span>

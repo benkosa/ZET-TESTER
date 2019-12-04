@@ -4095,12 +4095,12 @@
            "answers":[
               {
                  "answer":"85",
-                 "right":true,
+                 "right":false,
                  "id":0
               },
               {
                  "answer":"90",
-                 "right":false,
+                 "right":true,
                  "id":1
               },
               {
@@ -4144,6 +4144,7 @@
   },
   {
      "name":"10. Agregátny thr",
+     "info": "Informatici nemusia vedieť tento test(overené u cvičiacej)",
      "questions":[
         {
            "question":"Agregátny dopyt predstavuje:",
@@ -4572,7 +4573,7 @@
            ]
         },
         {
-           "question":"Na obrázku je krivka: (spravna je podla Keynesa ale neviem ci v dlhom alebo kratkom)",
+           "question":"Na obrázku je krivka:",
            "picture": "data/pictures/t10q18.png",
            "answers":[
               {
@@ -4592,7 +4593,7 @@
               },
               {
                  "answer":"AS v dlhom období podla Keynesa",
-                 "right":false,
+                 "right":true,
                  "id":3
               }
            ]
