@@ -84,9 +84,10 @@ var app = angular
              * @param {object Test[].questions - vid. fullData.json} question 
              */
             function shuffleAnswers(question){
+                max = question.answers.length -1;
                 if($scope.canShuffle == true){
-                    id1 = getRandomInt(0,3);
-                    id2 = getRandomInt(0,3);
+                    id1 = getRandomInt(0,max);
+                    id2 = getRandomInt(0,max);
                     tmp = question.answers[id1];
 
                     question.answers[id1] = question.answers[id2];
