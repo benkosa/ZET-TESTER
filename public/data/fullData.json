@@ -56,7 +56,7 @@
            "question":"Predpoklad „ceteris paribus“ je:",
            "answers":[
               {
-                 "answer":"ekonomické pravidla časovej následnosti hospodárskych javov",
+                 "answer":"ekonomické pravidlo časovej následnosti hospodárskych javov",
                  "right":false,
                  "id":0
               },
@@ -78,7 +78,7 @@
            ]
         },
         {
-           "question":"Analýzou a súhrnným hodnotením vývoja inflácie v ekonomike sa zaoberá",
+           "question":"Analýzou a súhrnným hodnotením vývoja inflácie v ekonomike sa zaoberá:",
            "answers":[
               {
                  "answer":"mikroekonómia",
@@ -111,12 +111,12 @@
                  "id":0
               },
               {
-                 "answer":"skúma podstatné veci ekonomického systému z hľadiska výťahu príčina – následok",
+                 "answer":"skúma podstatné veci ekonomického systému z hľadiska vzťahu príčina – následok",
                  "right":true,
                  "id":1
               },
               {
-                 "answer":"skúma ekonomickú realitu zisťovaním výťahu cieľ - účel",
+                 "answer":"skúma ekonomickú realitu zisťovaním vzťahu cieľ - účel",
                  "right":false,
                  "id":2
               },
@@ -128,7 +128,7 @@
            ]
         },
         {
-           "question":"Pri systémovom princípe často dochádza k mylnému predpokladu tzv.",
+           "question":"Pri systémovom princípe často dochádza k mylnému predpokladu tzv.:",
            "answers":[
               {
                  "answer":"omyl „post hoc“",
@@ -303,7 +303,7 @@
            ]
         },
         {
-           "question":"Omyl „post hoc“ je klasickým omylom, ku ktorému v ekonómii dochádza pri objasňovaní relácie príčina – dôsledok a znamená:",
+           "question":"Omyl „post hoc“ je klasickým omylom, ku ktorému v ekonómii dochádza pri objasňovaní vzťahu príčina – dôsledok a znamená:",
            "answers":[
               {
                  "answer":"nesprávne odhadnutie nástrojov hospodárskej politiky",
@@ -596,7 +596,7 @@
                  "id":1
               },
               {
-                 "answer":"volné trhové hospodárstvo, zmiešaná, administratívna, socialistická",
+                 "answer":"voľné trhové hospodárstvo, zmiešaná, administratívna, socialistická",
                  "right":false,
                  "id":2
               },
@@ -986,12 +986,12 @@
            "question":"Externality môžeme charakterizovať ako:",
            "answers":[
               {
-                 "answer":"vedlajšie efekty, ktoré neprechádzajú trhom",
+                 "answer":"vedľajšie efekty, ktoré neprechádzajú trhom",
                  "right":true,
                  "id":0
               },
               {
-                 "answer":"vedlajšie efekty, ktoré prechádzajú trhom",
+                 "answer":"vedľajšie efekty, ktoré prechádzajú trhom",
                  "right":false,
                  "id":1
               },
@@ -1306,7 +1306,7 @@
                  "id":2
               },
               {
-                 "answer":"prírastok produkcie vyvovalný prírastkom jedného výrobného faktora o jednu jednotku",
+                 "answer":"prírastok produkcie vyvolaný prírastkom jedného výrobného faktora o jednu jednotku",
                  "right":true,
                  "id":3
               }
@@ -1331,7 +1331,7 @@
                  "id":2
               },
               {
-                 "answer":"nedá sa jednoznačne rozhodnúť",
+                 "answer":"nedá sa jednoznačne rozhodnúť aký vplyv",
                  "right":false,
                  "id":3
               }
@@ -1586,7 +1586,7 @@
                  "id":2
               },
               {
-                 "answer":") cenou daného statku a ponúkaným množstvom daného statku",
+                 "answer":"cenou daného statku a ponúkaným množstvom daného statku",
                  "right":false,
                  "id":3
               }
@@ -1693,7 +1693,7 @@
            ]
         },
         {
-           "question":"Zavedenie modernejšej a efektívnejšej technológie vo výrobe (ceteris paribus)",
+           "question":"Zavedenie modernejšej a efektívnejšej technológie vo výrobe (ceteris paribus):",
            "answers":[
               {
                  "answer":"posúva krivku ponuky doprava ",
@@ -1721,12 +1721,12 @@
            "question":"Trh predstavuje priestor, v ktorom sa:",
            "answers":[
               {
-                 "answer":"uskutočnuje naturálna výmena prostredníctvom cenných papierov",
+                 "answer":"uskutočňuje naturálna výmena prostredníctvom cenných papierov",
                  "right":false,
                  "id":0
               },
               {
-                 "answer":"uskutočnuje výmena hodnotových súdov",
+                 "answer":"uskutočňuje výmena hodnotových súdov",
                  "right":false,
                  "id":1
               },
@@ -1768,7 +1768,7 @@
            ]
         },
         {
-           "question":"Určite, k akej zmene došlo na trhu novín, ak sa zvýšila cena novinového papiera (ceteris paribus)",
+           "question":"Určite, k akej zmene došlo na trhu novín, ak sa zvýšila cena novinového papiera (ceteris paribus):",
            "answers":[
               {
                  "answer":"krivka dopytu sa posunula doprava",
@@ -2070,7 +2070,7 @@
      ]
   },
   {
-     "name":"6. trh výrobných faktorov",
+     "name":"6. Trh výrobných faktorov",
      "questions":[
         {
            "question":"Ponuku na trhu výrobných faktorov vytvárajú:",
@@ -2156,7 +2156,7 @@
                  "id":0
               },
               {
-                 "answer":") dodatočný príjem, ktorý podnik získa predajom produktu vytvoreného zapojením všetkých výrobných faktorov",
+                 "answer":"dodatočný príjem, ktorý podnik získa predajom produktu vytvoreného zapojením všetkých výrobných faktorov",
                  "right":false,
                  "id":1
               },
@@ -2223,7 +2223,7 @@
            ]
         },
         {
-           "question":"Substitučný efekt na trhu práce znamená",
+           "question":"Substitučný efekt na trhu práce znamená:",
            "answers":[
               {
                  "answer":"obmedzenie pracovnej ponuky v prospech voľného času",
@@ -7526,7 +7526,7 @@
                  "id":0
               },
               {
-                 "answer":"uvoľnovanie ekonomických obmedzení a regulácií",
+                 "answer":"uvoľňovanie ekonomických obmedzení a regulácií",
                  "right":false,
                  "id":1
               },
@@ -7818,7 +7818,7 @@
            ]
         },
         {
-           "question":"Reštitúcia v rámci transfonnačného procesu slovenského hospodárstva znamenala:",
+           "question":"Reštitúcia v rámci transformačného procesu slovenského hospodárstva znamenala:",
            "answers":[
               {
                  "answer":"navrátenie majetkových nárokov štátu",
