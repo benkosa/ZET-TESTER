@@ -20,23 +20,19 @@
     <title>ZET-TESTER</title>
     <link rel="icon" href="data/pictures/logo.png">
 
-    <script src="js/angular.js"></script>
-    <script src="js/app.js"></script>
-    <script src="js/shController.js"></script>
-
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular-cookies.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular-sanitize.js"></script>
 
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
     <link href="style/style.css" rel="stylesheet"/>
+
+    <script src="js/app.js"></script>
+    <script src="js/shController.js"></script>
     
 </head>
 <body ng-app="Module" ng-controller="mainController">
-<div class = "main2">
-    <!--<div class="questinMain question">
-        Pozvánka do spoločnej discord skupiny (pre prvákov informatikov):
-        <a href="https://discord.gg/PFBr2TK" target="_blank">https://discord.gg/PFBr2TK</a>
-    </div>-->    
+<div class = "main2"> 
     <div class="main"ng-repeat="test in Data" ng-controller="shController" ng-init="testIndex=$index">        
         
         <div class="testName" id="{{$index}}">
