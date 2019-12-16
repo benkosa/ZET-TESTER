@@ -7,7 +7,7 @@ Pravopisné chyby alebo zlé odpovede môžete opravovať tu: [fullData.json](ht
 
 #### Použité technológie:
 - AngularJs
-- SCSS
+- Sass
 - HTML
 
 #### Hosting:
