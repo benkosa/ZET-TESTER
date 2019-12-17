@@ -84,12 +84,16 @@ var app = angular
              * @param {object Test[].questions - vid. fullData.json} question 
              */
             function shuffleAnswers(question){
-                max = question.answers.length -1;
-                if($scope.canShuffle == true){
+                if($scope.canShuffle == false)
+                    return;
+
+                max = question.answers.length - 1;
+                repeatTo = question.answers.length/2;
+
+                for(i = 0; i < repeatTo; i++){
                     id1 = getRandomInt(0,max);
                     id2 = getRandomInt(0,max);
                     tmp = question.answers[id1];
-
                     question.answers[id1] = question.answers[id2];
                     question.answers[id2] = tmp;
                 }
@@ -109,9 +113,7 @@ var app = angular
                         answer.color = null;
                     });
 
-                    //pre vacsiu  nahodnost premiesavam tri krat
-                    for(var i = 0; i < 3; i++)
-                        shuffleAnswers(question);
+                    shuffleAnswers(question);
                 });
 
                 //zmaze cookie
@@ -165,12 +167,15 @@ var app = angular
                 }                
             }
 
+            /**
+             * schovavanie a zobrazovanie nazvu test pri scrolovani
+             */
             var prevScrollpos = window.pageYOffset;
             window.onscroll = function() {                
                 var currentScrollPos = window.pageYOffset;
                 if (prevScrollpos > currentScrollPos) {
                     for(var i = 0; i < data.length; i++)
-                        document.getElementById(i.toString()).style.top = "0";
+                        document.getElementById(i.toString()).style.top = "-1";
                 } else {
                     for(var i = 0; i < data.length; i++)
                         document.getElementById(i.toString()).style.top = "-100%";
@@ -178,9 +183,10 @@ var app = angular
                 prevScrollpos = currentScrollPos;                
             }
 
-
+            //nastavenia
             $scope.showAnswers = true;
             $scope.canShuffle = true;
+
             $scope.Data = data;
 
         });
