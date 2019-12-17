@@ -122,17 +122,24 @@ var app = angular
 
             /**
              * animacia zmeny spiky v menu vyberu testu
+             * detekcia aktualne nascrolovania
              * @param {object Test - vid. fullData.json} test 
              */
             var lastScroll = 0;
-
+            var mainSize = 0;
             $scope.changeArrow = function(test){
                 test.arrow == "up" ? test.arrow = "down" : test.arrow = "up";
 
                 if (test.arrow == "down"){
-                    document.documentElement.scrollTo(0,lastScroll);
+                    //ak sa nachadzame este vo velkosti stranky tak nescrolujeme na top
+                    if(document.documentElement.scrollTop > mainSize )
+                        document.documentElement.scrollTo(0,lastScroll);
                 }else
-                    lastScroll = document.documentElement.scrollTop;
+                    //poznacime sa velkost stranky
+                    if(mainSize == 0) mainSize = document.getElementById('main2').clientHeight;
+                    //aktualnu poziciu scrolu si zmenim len ak nieje nic rozbalene
+                    if(document.documentElement.scrollTop < mainSize )
+                        lastScroll = document.documentElement.scrollTop;
                     
             }
 
@@ -175,7 +182,7 @@ var app = angular
                 var currentScrollPos = window.pageYOffset;
                 if (prevScrollpos > currentScrollPos) {
                     for(var i = 0; i < data.length; i++)
-                        document.getElementById(i.toString()).style.top = "-1";
+                        document.getElementById(i.toString()).style.top = "0";
                 } else {
                     for(var i = 0; i < data.length; i++)
                         document.getElementById(i.toString()).style.top = "-100%";
