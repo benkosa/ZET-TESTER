@@ -28,6 +28,31 @@ var app = angular
                 cookies.a[questionIndex] = {'q': questionIndex, 'a':answerId};
                 $cookies.put(testIndex, JSON.stringify(cookies), {'expires': expireDate});            
             }
+            
+            /**
+             * ulozi do cookies info o nastaveniach
+             * @param {string - type of cookies} type 
+             * @param {boolean } value 
+             */
+            $scope.setCookiesSettings = function(type, value){
+                //pocitanie expiracnej doby pre cookies
+                var now = new $window.Date(),
+                expireDate = new $window.Date(now.getFullYear(), now.getMonth()+6, now.getDate());
+
+                var strCookies = $cookies.get("settings");
+                //deklaruje objekt pre cookkies
+                cookies = {};
+                
+                //ak uz nejake cookies exzistuju tak ich vitiahneme
+                if(strCookies != undefined){
+                    //cookies su string takze ich treba parsovat do json
+                    cookies = JSON.parse(strCookies);
+                }
+                
+                cookies[type] = value;
+                console.log(cookies);
+                $cookies.put("settings", JSON.stringify(cookies), {'expires': expireDate});            
+            }
 
             /**
              * volam pri stalceni na odpoved
@@ -154,6 +179,18 @@ var app = angular
 
             /////////////////////////MAIN//////////////////////////
 
+            /**
+             * cookies nastavenia
+             */
+            $scope.showAnswers = true;
+            $scope.canShuffle = true;
+            strCookie = $cookies.get("settings");
+            if(strCookie){
+                cookie = JSON.parse(strCookie);
+                $scope.showAnswers = cookie.showAnswers;
+                $scope.canShuffle = cookie.canShuffle;
+            }
+
             var data = response.data;
             //po nacitani stranky nacitame cookies ak sú
             for(var i = 0; i < data.length; i++){
@@ -182,17 +219,15 @@ var app = angular
                 var currentScrollPos = window.pageYOffset;
                 if (prevScrollpos > currentScrollPos) {
                     for(var i = 0; i < data.length; i++)
-                        document.getElementById(i.toString()).style.top = "0";
+                        document.getElementById(i).style.top = "0";
                 } else {
-                    for(var i = 0; i < data.length; i++)
-                        document.getElementById(i.toString()).style.top = "-100%";
+                    for(var i = 0; i < data.length; i++){
+                        var divHeight = document.getElementById(i).clientHeight * -1 -1;
+                        document.getElementById(i).style.top = divHeight+"px";
+                    }
                 }
                 prevScrollpos = currentScrollPos;                
             }
-
-            //nastavenia
-            $scope.showAnswers = true;
-            $scope.canShuffle = true;
 
             $scope.Data = data;
 

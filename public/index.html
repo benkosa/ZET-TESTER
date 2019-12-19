@@ -63,10 +63,10 @@
     </div>
     
     <div class="settings">
-        <div class="bTestH" ng-click="showAnswers = !showAnswers;">
+        <div class="bTestH" ng-click="showAnswers = !showAnswers; setCookiesSettings('showAnswers', showAnswers)">
                 {{(showAnswers ? "Vypnúť" : "Zapnúť") + " zobrazovanie správnych odpovedí"}}            
         </div>
-        <div class="bTestH" ng-click="canShuffle = !canShuffle;">
+        <div class="bTestH" ng-click="canShuffle = !canShuffle; setCookiesSettings('canShuffle', canShuffle)">
                 {{(canShuffle ? "Vypnúť" : "Zapnúť") + " miešanie odpovedí"}}            
         </div>
     </div>

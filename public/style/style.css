@@ -11,8 +11,8 @@
   top: 0;
   position: -webkit-sticky;
   position: sticky;
-  -webkit-transition: top .5s;
-  transition: top .5s;
+  -webkit-transition: top .4s;
+  transition: top .4s;
 }
 
 .testText {
