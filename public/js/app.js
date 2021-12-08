@@ -63,12 +63,12 @@ var app = angular
              * @param {int - index test-u z pola objektov Test} testIndex 
              * @param {int - index test-u z pola objektov Test[].questions[]} questionIndex 
              */
-            $scope.isRight = function(answer, test, question, testIndex, questionIndex) {
+            $scope.isCorrect = function(answer, test, question, testIndex, questionIndex) {
                 //pridam do cookies len pri prvom stlaceni na odpoved
                 if(question.answered == null)
                     setCookies(testIndex, questionIndex, answer.id);
                 
-                if(answer.right == true){
+                if(answer.isCorrect == true){
                     //ak uz nebola zodpovedana pripocitam body
                     if(question.answered == null){
                         if (test.points == null)
@@ -83,7 +83,7 @@ var app = angular
 
                     if($scope.showAnswers == true)
                         question.answers.forEach(function (trueAnswer) {
-                            if(trueAnswer.right == true)
+                            if(trueAnswer.isCorrect == true)
                                 trueAnswer.color = "right";
                         });
                 }
@@ -205,7 +205,7 @@ var app = angular
                         if(answer != null){
                             answers = data[i].questions[answer.q].answers[answer.a];
                             questions = data[i].questions[answer.q];
-                            $scope.isRight(answers, data[i], questions);
+                            $scope.isCorrect(answers, data[i], questions);
                         }    
                     });
                 }                
