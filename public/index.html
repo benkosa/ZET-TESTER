@@ -53,10 +53,10 @@
                 <div class="question">
                     <span ng-bind-html="$index+1+'. '+question.question"></span>
                     <img ng-show="question.picture" ng-src="{{question.picture}}" onError="question.picture = false">
-                </div>            
+                </div>
             
             <div ng-repeat="answer in question.answers">
-                <div class="{{answer.color == null ? 'bAnswer' : answer.color}}" ng-click="isRight(answer, test, question, testIndex, questionIndex)">{{answer.answer}}</div>
+                <div class="{{answer.color == null ? 'bAnswer' : answer.color}}" ng-click="isCorrect(answer, test, question, testIndex, questionIndex)">{{answer.answer}}</div>
             </div>
         </div>
         
@@ -73,6 +73,7 @@
 </div>
 <footer>
     Zdrojový kód projektu: <a target="_blank" rel="noopener noreferrer" href="https://github.com/benkosa/ZET-TESTER/tree/master">github.com/benkosa</a>
+    <div>v 1.1</div>
 </footer>
 </body>
 </html>
