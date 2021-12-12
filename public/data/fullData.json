@@ -428,31 +428,6 @@
            ]
         },
         {
-           "question":"Postupným vývojom ekonomickej teórie sa vyprofilovali jej základné funkcie, a to:",
-           "answers":[
-              {
-                 "answer":"poznávacia, pragmatická, metodologická",
-                 "isCorrect":true,
-                 "id":0
-              },
-              {
-                 "answer":"kvantitatívna, kvalitatívna, informatická",
-                 "isCorrect":false,
-                 "id":1
-              },
-              {
-                 "answer":"informatická, metodická, poznávacia",
-                 "isCorrect":false,
-                 "id":2
-              },
-              {
-                 "answer":"pragmatická, poznávacia, subjektívna",
-                 "isCorrect":false,
-                 "id":3
-              }
-           ]
-        },
-        {
            "question":"Hodnotové súdy sú vždy:",
            "answers":[
               {
@@ -812,12 +787,12 @@
            "answers":[
               {
                  "answer":"trh a konkurencia",
-                 "isCorrect":true,
+                 "isCorrect":false,
                  "id":0
               },
               {
                  "answer":"trh a štátna intervencia",
-                 "isCorrect":false,
+                 "isCorrect":true,
                  "id":1
               },
               {
@@ -986,17 +961,17 @@
            "question":"Externality môžeme charakterizovať ako:",
            "answers":[
               {
-                 "answer":"vedľajšie efekty, ktoré neprechádzajú trhom",
+                 "answer":"vedľajšie efekty činností (napr. výroby), za ktoré príjemca neplatí",
                  "isCorrect":true,
                  "id":0
               },
               {
-                 "answer":"vedľajšie efekty, ktoré prechádzajú trhom",
+                 "answer":"vedľajšie efekty činností (napr. výroby), za ktoré príjemca platí",
                  "isCorrect":false,
                  "id":1
               },
               {
-                 "answer":"hlavné efekty, ktoré neprechádzajú trhom ",
+                 "answer":"hlavné efekty činností (napr. výroby), za ktoré pôvodca neplatí",
                  "isCorrect":false,
                  "id":2
               },
@@ -1033,7 +1008,7 @@
            ]
         },
         {
-           "question":"Podnik, ktorý sa nachádza na KPM, produkuje",
+           "question":"Podnik, ktorý sa nachádza na KPM, produkuje:",
            "answers":[
               {
                  "answer":"efektívne",
@@ -1241,23 +1216,23 @@
            "question":"Ktoré tvrdenie je nesprávne? Poznáme:",
            "answers":[
               {
-                 "answer":"prirodzenú a technologickú deľbu práce",
+                 "answer":"len prirodzenú a technologickú deľbu práce",
                  "isCorrect":false,
                  "id":0
               },
               {
-                 "answer":"spoločenskú a medzinárodnú deľbu práce",
+                 "answer":"len spoločenskú a medzinárodnú deľbu práce",
                  "isCorrect":false,
                  "id":1
               },
               {
-                 "answer":"štátnu, súkromnú a zmiešanú deľbu práce",
-                 "isCorrect":true,
+                 "answer":"štátnu, súkromnú, zmiešanú deľbu práce",
+                 "isCorrect":false,
                  "id":2
               },
               {
-                 "answer":"technologickú, medzinárodnú a medziodvetovú deľbu práce",
-                 "isCorrect":false,
+                 "answer":"technologickú, medzinárodnú, spoločenskú deľbu práce",
+                 "isCorrect":true,
                  "id":3
               }
            ]
@@ -1538,7 +1513,7 @@
            ]
         },
         {
-           "question":"Predpokladom tvorby kaptitálu v ekonomike je:",
+           "question":"Predpokladom tvorby kapitálu v ekonomike je:",
            "answers":[
               {
                  "answer":"tvorba úspor",
@@ -1668,31 +1643,6 @@
            ]
         },
         {
-           "question":"Agregovaním individuálnych dopytov určitého statku pri rôznych cenách dostaneme:",
-           "answers":[
-              {
-                 "answer":"odvodený dopyt",
-                 "isCorrect":false,
-                 "id":0
-              },
-              {
-                 "answer":"trhový dopyt",
-                 "isCorrect":true,
-                 "id":1
-              },
-              {
-                 "answer":"agregátny dopyt",
-                 "isCorrect":false,
-                 "id":2
-              },
-              {
-                 "answer":"tiež individuálny dopyt",
-                 "isCorrect":false,
-                 "id":3
-              }
-           ]
-        },
-        {
            "question":"Zavedenie modernejšej a efektívnejšej technológie vo výrobe (ceteris paribus):",
            "answers":[
               {
@@ -1718,10 +1668,35 @@
            ]
         },
         {
+           "question":"Agregovaním individuálnych dopytov určitého statku pri rôznych cenách dostaneme:",
+           "answers":[
+              {
+                 "answer":"odvodený dopyt",
+                 "isCorrect":false,
+                 "id":0
+              },
+              {
+                 "answer":"trhový dopyt",
+                 "isCorrect":true,
+                 "id":1
+              },
+              {
+                 "answer":"agregátny dopyt",
+                 "isCorrect":false,
+                 "id":2
+              },
+              {
+                 "answer":"tiež individuálny dopyt",
+                 "isCorrect":false,
+                 "id":3
+              }
+           ]
+        },
+        {
            "question":"Trh predstavuje priestor, v ktorom sa:",
            "answers":[
               {
-                 "answer":"uskutočňuje naturálna výmena prostredníctvom cenných papierov",
+                 "answer":"uskutočňuje tvorba hospodárskej politiky",
                  "isCorrect":false,
                  "id":0
               },
@@ -1731,12 +1706,12 @@
                  "id":1
               },
               {
-                 "answer":"uskutočňujú transakcie, t.j. vymieňajú sa statky medzi jednotlivými ekonomickými subjektami",
+                 "answer":"uskutočňuje výmena statkov medzi ekonomickými subjektami",
                  "isCorrect":true,
                  "id":2
               },
               {
-                 "answer":"uskutočňuje sa výmena statkov prostredníctvom valút a dlhopisov",
+                 "answer":"uskutočňuje výmena subjektívnych názorov",
                  "isCorrect":false,
                  "id":3
               }
@@ -1818,7 +1793,7 @@
            ]
         },
         {
-           "question":"Ktorá z nasledujúcich možností je výsledkom posunu kriky dopytu pre šaty:",
+           "question":"Ktorá z nasledujúcich možností je príčinou posunu krivky dopytu na trhu so šatami?",
            "answers":[
               {
                  "answer":"zvýšenie príjmov spotrebiteľov",
@@ -1868,25 +1843,25 @@
            ]
         },
         {
-           "question":"Ak sa cena nafty, ktorá je substitútom pre uhlie zvýši (ceteris paribus), potom:",
+           "question":"Ak sa cena nafty, ktorá je substitútom pre uhlie zvýši (ceteris paribus), potom sa na trhu s uhlím:",
            "answers":[
               {
-                 "answer":"krivka ponuky pre uhlie sa neposunie",
+                 "answer":"krivka ponuky neposunie",
                  "isCorrect":false,
                  "id":0
               },
               {
-                 "answer":"krivka ponuky pre uhlie sa posunie doľava",
+                 "answer":"krivka ponuky posunie doľava",
                  "isCorrect":false,
                  "id":1
               },
               {
-                 "answer":"krivka dopytu pre uhlie sa posunie doprava",
+                 "answer":"krivka dopytu posunie doprava",
                  "isCorrect":true,
                  "id":2
               },
               {
-                 "answer":"rovnovážna cena a množstvo na trhu s uhlím sa nezmení",
+                 "answer":"rovnovážna cena a množstvo sa nezmení",
                  "isCorrect":false,
                  "id":3
               }
@@ -1936,7 +1911,7 @@
                  "id":2
               },
               {
-                 "answer":"zvyšovania ceny s cielom maximalizovat zisk",
+                 "answer":"zvyšovania ceny s cieľom maximalizovať zisk",
                  "isCorrect":false,
                  "id":3
               }
@@ -1996,22 +1971,22 @@
            "question":"Cenovú elsticitu dopytu vypočítame ako percentuálnu zmenu:",
            "answers":[
               {
-                 "answer":"dopytovaného množstva, delenú percentuálnou zmenou ceny",
+                 "answer":"dopytovaného množstva delenú percentuálnou zmenou ceny",
                  "isCorrect":true,
                  "id":0
               },
               {
-                 "answer":"dopytovaného množstva, delenú percentuálnou zmenou príjmu",
+                 "answer":"dopytovaného množstva delenú percentuálnou zmenou príjmu",
                  "isCorrect":false,
                  "id":1
               },
               {
-                 "answer":"ceny, delenú percentuálnou zmenou dopytovaného množstva",
+                 "answer":"ceny delenú percentuálnou zmenou dopytovaného množstva",
                  "isCorrect":false,
                  "id":2
               },
               {
-                 "answer":"dopytovaného množstva jedného statku, delenú percentuálnou zmenou ceny druhúho statku",
+                 "answer":"dopytovaného množstva jedného statku delenú percentuálnou zmenou ceny druhúho statku",
                  "isCorrect":false,
                  "id":3
               }
@@ -2046,22 +2021,22 @@
            "question":"Cenovú elasticitu ponuky vypočítame ako percentuálnu zmenu:",
            "answers":[
               {
-                 "answer":"ponúkaného množstva, delenú percentuálnou zmenou zisku",
+                 "answer":"ponúkaného množstva delenú percentuálnou zmenou zisku",
                  "isCorrect":false,
                  "id":0
               },
               {
-                 "answer":"ceny, delenú percentuálnou zmenou ponúkaného množstva",
+                 "answer":"ceny delenú percentuálnou zmenou ponúkaného množstva",
                  "isCorrect":false,
                  "id":1
               },
               {
-                 "answer":"dopytovaného množstva, delenú percentuálnou zmenou ceny",
+                 "answer":"dopytovaného množstva delenú percentuálnou zmenou ceny",
                  "isCorrect":false,
                  "id":2
               },
               {
-                 "answer":"ponúkaného množstva, delenú percentuálnou zmenou ceny",
+                 "answer":"ponúkaného množstva delenú percentuálnou zmenou ceny",
                  "isCorrect":true,
                  "id":3
               }
@@ -2281,7 +2256,7 @@
                  "id":0
               },
               {
-                 "answer":"pomerom počtu nezamestnaných k celkovému počtu pracovných síl v percentách",
+                 "answer":"pomerom počtu nezamestnaných k celkovému počtu pracovných síl v %",
                  "isCorrect":true,
                  "id":1
               },
@@ -2326,12 +2301,12 @@
            "question":"Ukazovateľ miery nezamestnanosti je daný vzťahom:",
            "answers":[
               {
-                 "answer":"u = U /LF . 100 %",
+                 "answer":"u = U / LF . 100 %",
                  "isCorrect":true,
                  "id":0
               },
               {
-                 "answer":"u = U /E . 100 %",
+                 "answer":"u = U / E . 100 %",
                  "isCorrect":false,
                  "id":1
               },
@@ -2393,31 +2368,6 @@
               {
                  "answer":"odvodeným dopytom v závislosti od bonity pôdy",
                  "isCorrect":false,
-                 "id":3
-              }
-           ]
-        },
-        {
-           "question":"Pod pojmom renta rozumieme:",
-           "answers":[
-              {
-                 "answer":"poplatok pri prenájme výrobných faktorov všeobecne",
-                 "isCorrect":false,
-                 "id":0
-              },
-              {
-                 "answer":"poplatok za používanie nereprodukovateľných výrobných faktorov",
-                 "isCorrect":false,
-                 "id":1
-              },
-              {
-                 "answer":"poplatok za obrábanie pôdy",
-                 "isCorrect":false,
-                 "id":2
-              },
-              {
-                 "answer":"žiadna z odpovedí nie je správna",
-                 "isCorrect":true,
                  "id":3
               }
            ]
@@ -2511,7 +2461,7 @@
                  "id":1
               },
               {
-                 "answer":"sumu tovarov a služieb, ktoré si môže pracovník kúpiť za svoju nominálnu mzdu",
+                 "answer":"množstvo tovarov a služieb v hodnotovom vyjadrení, ktorá si môže pracovník kúpiť za svoju nominálnu mzdu",
                  "isCorrect":true,
                  "id":2
               },
@@ -2753,7 +2703,7 @@
            ]
         },
         {
-           "question":"Investičný dopyt podnikov je:",
+           "question":"Investičný dopyt podnikov podľa Keynesa je:",
            "answers":[
               {
                  "answer":"nezávislý od úrovne výstupu ekonomiky",
@@ -2816,7 +2766,7 @@
                  "id":1
               },
               {
-                 "answer":"dôchodkový a kapacitotvorný",
+                 "answer":"dôchodkotvorný a kapacitotvorný",
                  "isCorrect":true,
                  "id":2
               },
@@ -2856,47 +2806,47 @@
            "question":"Investičný multiplikátor je vyjadrený vzorcom:",
            "answers":[
               {
-                 "answer":"k = 1 / (1+MPC)",
+                 "answer":"k = 1 / (1 + MPC)",
                  "isCorrect":false,
                  "id":0
               },
               {
-                 "answer":"k = 1 / (1-MPC)",
+                 "answer":"k = 1 / (1 - MPC)",
                  "isCorrect":true,
                  "id":1
               },
               {
-                 "answer":"k = 1 / (1+MPS)",
+                 "answer":"k = 1 / (1 + MPS)",
                  "isCorrect":false,
                  "id":2
               },
               {
-                 "answer":"k = 1 / (1-MPS)",
+                 "answer":"k = 1 / (1 - MPS)",
                  "isCorrect":false,
                  "id":3
               }
            ]
         },
         {
-           "question":"Dôchodkový účinok investícií spôsobuje:",
+           "question":"Dôchodkový účinok investícií o. i. spôsobuje:",
            "answers":[
               {
-                 "answer":"pokles príjmov -> pokles úspor -> rast investícii",
+                 "answer":"pokles príjmov a pokles úspor",
                  "isCorrect":false,
                  "id":0
               },
               {
-                 "answer":"rast zamestnanosti -> rast dôchodkov -> rast agregátneho dopytu",
+                 "answer":"rast zamestnanosti a rast dôchodkov",
                  "isCorrect":true,
                  "id":1
               },
               {
-                 "answer":"rast potenciálneho produktu -> vyššie mzdy -> rast zamestnanosti -> rast dôchodkov",
+                 "answer":"rast potenciálneho produktu a rast dlhu",
                  "isCorrect":false,
                  "id":2
               },
               {
-                 "answer":"pokles nezamestnanosti -> nižší produkt -> vyššie investície",
+                 "answer":"pokles nezamestnanosti a nižší produkt",
                  "isCorrect":false,
                  "id":3
               }
@@ -2906,22 +2856,22 @@
            "question":"Kapacitotvorný účinok investícií sa prejavuje:",
            "answers":[
               {
-                 "answer":"vyššou akumuláciou kapitálu, rastom potenciálneho produktu a zvyšovaním ekonomického rastu",
+                 "answer":"vyššou akumuláciou kapitálu, zvyšovaním ekonomického rastu a rastom potenciálneho produktu",
                  "isCorrect":true,
                  "id":0
               },
               {
-                 "answer":"vo zvyšovaní kapacitných možností výrobných podnikov, rastom reálneho výstupu",
+                 "answer":"vo zvyšovaní kapacitných možností výrobných podnikov, poklesom reálneho výstupu",
                  "isCorrect":false,
                  "id":1
               },
               {
-                 "answer":"ako efekt investícií vo výrobe, rozdeľovaní, obchodu a spotrebe",
+                 "answer":"ako efekt investícií vo výrobe, rozdeľovaní, obehu a spotrebe",
                  "isCorrect":false,
                  "id":2
               },
               {
-                 "answer":"koncentráciou kapitálu, rastom reálneho produktu a rastom zamestnanosti",
+                 "answer":"koncentráciou práce, rastom reálneho produktu a poklesom zamestnanosti",
                  "isCorrect":false,
                  "id":3
               }
@@ -2956,22 +2906,22 @@
            "question":"Ak disponibilný dôchodok domácnosti je 1500 eur a úspory predstavujú 300 eur, potom:",
            "answers":[
               {
-                 "answer":"S = 350",
+                 "answer":"S = 350 €",
                  "isCorrect":false,
                  "id":0
               },
               {
-                 "answer":"S = 1 800",
+                 "answer":"S = 1 800 €",
                  "isCorrect":false,
                  "id":1
               },
               {
-                 "answer":"C = 1 200",
+                 "answer":"C = 1 200 €",
                  "isCorrect":true,
                  "id":2
               },
               {
-                 "answer":"C = 1 800",
+                 "answer":"C = 1 800 €",
                  "isCorrect":false,
                  "id":3
               }
@@ -2981,47 +2931,47 @@
            "question":"Ak hraničný sklon k úsporám je 0,2, potom hraničný sklon k spotrebe je:",
            "answers":[
               {
-                 "answer":"0.8",
+                 "answer":"0,80",
                  "isCorrect":true,
                  "id":0
               },
               {
-                 "answer":"0.4",
+                 "answer":"0,40",
                  "isCorrect":false,
                  "id":1
               },
               {
-                 "answer":"0.2",
+                 "answer":"0,20",
                  "isCorrect":false,
                  "id":2
               },
               {
-                 "answer":"1.2",
+                 "answer":"1,20",
                  "isCorrect":false,
                  "id":3
               }
            ]
         },
         {
-           "question":"Podľa Keynesa zvýšenie investícií vo výške 180 mld. eur, v prípade ak investičný multiplikátor má hodnotu 5, vyvolá efekt:",
+           "question":"Podľa Keynesa zvýšenie investícií vo výške 180 mld. €, v prípade ak investičný multiplikátor má hodnotu 5, vyvolá efekt:",
            "answers":[
               {
-                 "answer":"Δ Yd = 36 mld. eur",
+                 "answer":"Δ Yd = 36 mld. €",
                  "isCorrect":false,
                  "id":0
               },
               {
-                 "answer":"Δ Yd = 175 mld. eur",
+                 "answer":"Δ Yd = 175 mld. €",
                  "isCorrect":false,
                  "id":1
               },
               {
-                 "answer":"výstup ekonomiky klesne o 900 mld. eur",
+                 "answer":"výstup ekonomiky klesne o 900 mld. €",
                  "isCorrect":false,
                  "id":2
               },
               {
-                 "answer":"výstup ekonomiky vzrastie o 900 mld. eur",
+                 "answer":"výstup ekonomiky vzrastie o 900 mld. €",
                  "isCorrect":true,
                  "id":3
               }
@@ -3057,22 +3007,22 @@
            "question":"Na základe hore uvedeného obrázka vieme, že v danom príklade hodnota hraničného sklonu k úsporam je:",
            "answers":[
               {
-                 "answer":"0.10",
+                 "answer":"0,10",
                  "isCorrect":false,
                  "id":0
               },
               {
-                 "answer":"0.20",
+                 "answer":"0,20",
                  "isCorrect":false,
                  "id":1
               },
               {
-                 "answer":"0.80",
+                 "answer":"0,80",
                  "isCorrect":false,
                  "id":2
               },
               {
-                 "answer":"0.90",
+                 "answer":"0,90",
                  "isCorrect":true,
                  "id":3
               }
@@ -3152,7 +3102,7 @@
                  "id":2
               },
               {
-                 "answer":"ovplyvňuje ekonomický rast, produktivitu, infláciu a nezamestnanosť",
+                 "answer":"minimalizuje oscilácie reálneho HDP okolo potencionálneho HDP",
                  "isCorrect":true,
                  "id":3
               }
@@ -3222,7 +3172,7 @@
                  "id":1
               },
               {
-                 "answer":"nepriame dane a transféry z EU",
+                 "answer":"nepriame dane a transfery z EÚ",
                  "isCorrect":false,
                  "id":2
               },
@@ -3516,7 +3466,7 @@
            ]
         },
         {
-           "question":"Expanzívna fiškálna politika je realizovaná:",
+           "question":"Expanzívna fiškálna politika je o. i. realizovaná:",
            "answers":[
               {
                  "answer":"zvyšovaním daní alebo obmedzovaním vládnych výdavkov",
@@ -3746,25 +3696,25 @@
            ]
         },
         {
-           "question":"Inflačné znehodnotenie HDP vyjadruje:",
+           "question":"Inflačné znehodnotenie HDP je vyjadrené:",
            "answers":[
               {
-                 "answer":"index spotrebiteľských cien",
+                 "answer":"indexom spotrebyteľských cien",
                  "isCorrect":false,
                  "id":0
               },
               {
-                 "answer":"deflátor HDP",
+                 "answer":"deflátorom HDP",
                  "isCorrect":true,
                  "id":1
               },
               {
-                 "answer":"nominálny HDP",
+                 "answer":"nominálnym HDP",
                  "isCorrect":false,
                  "id":2
               },
               {
-                 "answer":"reálny HDP",
+                 "answer":"potenciálnym HDP",
                  "isCorrect":false,
                  "id":3
               }
@@ -3774,22 +3724,22 @@
            "question":"Deflátor HDP vypočítame podľa vzťahu",
            "answers":[
               {
-                 "answer":"100 * HDP(n)/HDP(r)",
+                 "answer":"HDP(n)/HDP(r) * 100",
                  "isCorrect":true,
                  "id":0
               },
               {
-                 "answer":"100 * HDP(r)/CPI",
+                 "answer":"HDP(r)/CPI * 100",
                  "isCorrect":false,
                  "id":1
               },
               {
-                 "answer":"100 * SUMA(pt*q0)/SUMA(p0*q0)",
+                 "answer":"SUMA(pt*q0)/SUMA(p0*q0) * 100",
                  "isCorrect":false,
                  "id":2
               },
               {
-                 "answer":"100 * HDP(r)/HDP(n)",
+                 "answer":"HDP(r)/HDP(n) * 100",
                  "isCorrect":false,
                  "id":3
               }
@@ -4024,7 +3974,7 @@
            "question":"V cyklickom vývoji ekonomiky najnižšiu aktivitu ekonomických subjektov vyjadruje:",
            "answers":[
               {
-                 "answer":"dno",
+                 "answer":"depresia",
                  "isCorrect":true,
                  "id":0
               },
@@ -4034,12 +3984,12 @@
                  "id":1
               },
               {
-                 "answer":"boom",
+                 "answer":"expanzia",
                  "isCorrect":false,
                  "id":2
               },
               {
-                 "answer":"vrchol",
+                 "answer":"konjunktúra",
                  "isCorrect":false,
                  "id":3
               }
@@ -4071,7 +4021,7 @@
            ]
         },
         {
-           "question":"Ak:<br/> čisté investície = 20,<br/> spotreba domácnosti = 55,<br/> výdavky vlády na SaS = 15,<br/> export = 85,<br/> amortizácia = 5,<br/> import = 90,<br/> potom veľkosť HDP bude:",
+           "question":"Ak:<br/> čisté investície = 20 mld. €,<br/> spotreba domácnosti = 55 mld. €,<br/> výdavky vlády na nákup SaS = 15 mld. €,<br/> export = 85 mld. €,<br/> amortizácia = 5 mld. €,<br/> import = 90 mld. €,<br/> potom veľkosť HDP bude:",
            "answers":[
               {
                  "answer":"85",
@@ -4096,7 +4046,7 @@
            ]
         },
         {
-           "question":"Ak:<br/> amortizácia = 5,<br/> národný dôchodok = 40,<br/> daň z pridanej hodnoty = 4,<br/> spotrebné dane = 3,<br/> potom veľkosť ČDP bude:",
+           "question":"Ak:<br/> amortizácia = 5 mld. €,<br/> národný dôchodok = 40 mld. €,<br/> daň z pridanej hodnoty = 4 mld. €,<br/> spotrebné dane = 3 mld. €,<br/> potom veľkosť ČDP bude:",
            "answers":[
               {
                  "answer":"47",
@@ -4608,7 +4558,7 @@
            "question":"Na obrázku je rovnováha:",
            "picture": "data/pictures/t10q20.png",
            "answers":[
-              {
+            {
                "answer":"na agregátnom trhu podľa klasikov",
                "isCorrect":false,
                "id":0
@@ -4627,7 +4577,7 @@
                "answer":"žiadna z odpovedí nie je správna",
                "isCorrect":false,
                "id":3
-              }
+            }
            ]
         }
      ]
@@ -4664,7 +4614,7 @@
            "question":"Aby peniaze mohli plniť svoju funkciu v ekonomike, musia:",
            "answers":[
               {
-                 "answer":"používat dôveru ako peniaze",
+                 "answer":"požívať dôveru ako peniaze",
                  "isCorrect":true,
                  "id":0
               },
@@ -4764,17 +4714,17 @@
            "question":"Kúpna sila peňazí vyjadruje:",
            "answers":[
               {
-                 "answer":"množstvo peňažných prostriedkov potrebných na zakúpenie tovarov obsiahnutých v spotrebiteľskom koši",
+                 "answer":"množstvo peňažných prostriedkov potrebných na zakúpenie tovarov obsiahnutých v spotrebyteľskom koši",
                  "isCorrect":false,
                  "id":0
               },
               {
-                 "answer":"množstvo SaS, ktoré je schopná zakúpit jedna peňažná jednotka pri danej cenovej hladine",
+                 "answer":"množstvo statkov a služieb, ktoré je schopná zakúpit jedna peňažná jednotka pri danej cenovej úrovni",
                  "isCorrect":true,
                  "id":1
               },
               {
-                 "answer":"množstvo SaS, ktoré je schopná nakúpiť domácnosť za minimálnu mzdu",
+                 "answer":"množstvo statkov a služieb, ktoré je schopná nakúpiť domácnosť za minimálnu mzdu",
                  "isCorrect":false,
                  "id":2
               },
@@ -4814,13 +4764,13 @@
            "question":"Ktorú z uvedených činností nezabezpečuje centrálna banka:",
            "answers":[
               {
-                 "answer":"vydáva obeživo do obehu (mince a bankovky)",
+                 "answer":"vydáva do obehu obeživo",
                  "isCorrect":false,
                  "id":0
               },
               {
-                 "answer":"vykonáva audit verejných financií štátu",
-                 "isCorrect":false,
+                 "answer":"poskytuje hypotekárne úvery domácnostiam",
+                 "isCorrect":true,
                  "id":1
               },
               {
@@ -4829,8 +4779,8 @@
                  "id":2
               },
               {
-                 "answer":"reguluje peňažný trh a obchodovanie so štátnymi cennými papiermi",
-                 "isCorrect":true,
+                 "answer":"reguluje peňažný trh",
+                 "isCorrect":false,
                  "id":3
               }
            ]
@@ -4839,22 +4789,22 @@
            "question":"Ktorú z uvedených činností zabezpečujú obchodné (komerčné) banky",
            "answers":[
               {
-                 "answer":"vydávaju do obehu bankovky",
+                 "answer":"realizujú monetárnu a menovú politiku štátu",
                  "isCorrect":false,
                  "id":0
               },
               {
-                 "answer":"nakupujú a predávajú cenné papiere",
-                 "isCorrect":true,
+                 "answer":"regulujú peňažný trh a obchodovanie so štátnymi cennými papiermi",
+                 "isCorrect":false,
                  "id":1
               },
               {
-                 "answer":"realizujú monetárnu a menovú politiku štátu",
-                 "isCorrect":false,
+                 "answer":"prijímajú vklady a poskytujú úvery",
+                 "isCorrect":true,
                  "id":2
               },
               {
-                 "answer":"regulujú peňažný trh a obchodovanie so štátnymi cennými papiermi",
+                 "answer":"vydávajú do obehu bankovky",
                  "isCorrect":false,
                  "id":3
               }
@@ -4935,7 +4885,7 @@
                  "id":0
               },
               {
-                 "answer":"index spotrebiteľských cien",
+                 "answer":"index spotrebyteľských cien",
                  "isCorrect":true,
                  "id":1
               },
@@ -4952,25 +4902,25 @@
            ]
         },
         {
-           "question":"Aká je miera inflácie, ak index spotrebiteľských cien bežného obdobia je 110, a predchádzajúceho obdobia 105?:",
+           "question":"Aká je miera inflácie, ak index spotrebyteľských cien bežného obdobia je 110, a predchádzajúceho obdobia 105:",
            "answers":[
               {
-                 "answer":"0.0454",
+                 "answer":"4,54 %",
                  "isCorrect":false,
                  "id":0
               },
               {
-                 "answer":"-0.0454",
+                 "answer":"-4,54 %",
                  "isCorrect":false,
                  "id":1
               },
               {
-                 "answer":"0.0476",
+                 "answer":"4,76 %",
                  "isCorrect":true,
                  "id":2
               },
               {
-                 "answer":"-0.0476",
+                 "answer":"-4,76 %",
                  "isCorrect":false,
                  "id":3
               }
@@ -4985,8 +4935,8 @@
                  "id":0
               },
               {
-                 "answer":"zvyšovanie povinných minimálnych bankových rezerv",
-                 "isCorrect":true,
+                 "answer":"znižovanie povinných minimálnych bankových rezerv",
+                 "isCorrect":false,
                  "id":1
               },
               {
@@ -4995,14 +4945,14 @@
                  "id":2
               },
               {
-                 "answer":"administratívne opatrenia centrálnej banky súvisiace s rozsahom a podmienkami poskytovania investičných a spotrebných úverov komerčnými bankami",
-                 "isCorrect":false,
+                 "answer":"zvyšovanie povinných minimálnych bankových rezerv",
+                 "isCorrect":true,
                  "id":3
               }
            ]
         },
         {
-           "question":"Ktorý cenový index meria zmenu cenovej hladiny všetkých finálnych statkov a služieb vyprodukovaných v ekonomike danej krajiny:",
+           "question":"Ktorý cenový index meria zmenu cenovej úrovňe všetkých finálnych statkov a služieb vyprodukovaných v ekonomike danej krajiny:",
            "answers":[
               {
                  "answer":"index cien výrobcov",
@@ -5010,12 +4960,12 @@
                  "id":0
               },
               {
-                 "answer":"deflátor HDP",
+                 "answer":"deflátor",
                  "isCorrect":true,
                  "id":1
               },
               {
-                 "answer":"index spotrebiteľských cien",
+                 "answer":"index spotrebyteľských cien",
                  "isCorrect":false,
                  "id":2
               },
@@ -5121,22 +5071,22 @@
            "question":"Ak:<br> CPI(2013) = 164,1<br> CPI(2014) = 164<br> CPI(2012) = 161,9<br> potom miera inflácie v roku 2013 bude:",
            "answers":[
               {
-                 "answer":"0.0135",
+                 "answer":"1,35 %",
                  "isCorrect":true,
                  "id":0
               },
               {
-                 "answer":"-0.0135",
+                 "answer":"-1,35 %",
                  "isCorrect":false,
                  "id":1
               },
               {
-                 "answer":"0.0006",
+                 "answer":"0,06 %",
                  "isCorrect":false,
                  "id":2
               },
               {
-                 "answer":"-0.0006",
+                 "answer":"-0,06 %",
                  "isCorrect":false,
                  "id":3
               }
@@ -5326,12 +5276,12 @@
            "question":"Apreciácia GBP (britská libra) voči CHF (švajčiarsky frank) má na obchod medzi V. Britániou a Švajčiarskom tento výsledný vplyv:",
            "answers":[
               {
-                 "answer":"uľahčí sa dovoz z V. Británie do Švajciarska",
+                 "answer":"uľahčí sa dovoz z V. Británie do Švajčiarska",
                  "isCorrect":false,
                  "id":0
               },
               {
-                 "answer":"nebude mať žiadny vplyv na obchod medzi V. Britániou a Švajciarskom",
+                 "answer":"nebude mať žiadny vplyv na obchod medzi V. Britániou a Švajčiarskom",
                  "isCorrect":false,
                  "id":1
               },
@@ -5981,7 +5931,7 @@
            "question":"Intervencie centrálnej banky na menových trhoch a opatrenia monetárnej a politiky na ovplyvňovanie platobnej bilancie sú nástrojmi:",
            "answers":[
               {
-                 "answer":"ochranárskej zahraničnoobchodnej politiky",
+                 "answer":"protekcionistickej zahraničnoobchodnej politiky",
                  "isCorrect":true,
                  "id":0
               },
@@ -6211,7 +6161,7 @@
                  "id":0
               },
               {
-                 "answer":"menej konkureneie na domácom trhu",
+                 "answer":"menej konkureneie",
                  "isCorrect":true,
                  "id":1
               },
@@ -6272,31 +6222,6 @@
               },
               {
                  "answer":"žiadna z odpovedí nie je správna",
-                 "isCorrect":false,
-                 "id":3
-              }
-           ]
-        },
-        {
-           "question":"Autorom teórie absolútnych výhod je:",
-           "answers":[
-              {
-                 "answer":"Adam Smith",
-                 "isCorrect":true,
-                 "id":0
-              },
-              {
-                 "answer":"John Maynard Keynes",
-                 "isCorrect":false,
-                 "id":1
-              },
-              {
-                 "answer":"David Ricardo",
-                 "isCorrect":false,
-                 "id":2
-              },
-              {
-                 "answer":"Milton Friedman",
                  "isCorrect":false,
                  "id":3
               }
@@ -6383,7 +6308,7 @@
            ]
         },
         {
-           "question":"Splniť Kodaňské kritériá, je povinnosťou pri vstupe do:",
+           "question":"Splniť Kodanské kritériá, je povinnosťou pri vstupe do:",
            "answers":[
               {
                  "answer":"CEFTA",
@@ -6466,7 +6391,7 @@
                  "id":0
               },
               {
-                 "answer":"Kodaňských kritérií",
+                 "answer":"Kodanských kritérií",
                  "isCorrect":false,
                  "id":1
               },
@@ -6536,12 +6461,12 @@
            "question":"Ktorá z nasledujúcich krajín splnila kritéria pre členstvo v eurozóne, ale toto členstvo odmietla?",
            "answers":[
               {
-                 "answer":"Česko",
+                 "answer":"Rakúsko",
                  "isCorrect":false,
                  "id":0
               },
               {
-                 "answer":"Veľká Británia",
+                 "answer":"Dánsko",
                  "isCorrect":true,
                  "id":1
               },
@@ -6716,7 +6641,7 @@
                  "id":0
               },
               {
-                 "answer":"Kodaňských kritérií",
+                 "answer":"Kodanských kritérií",
                  "isCorrect":true,
                  "id":1
               },
@@ -6926,7 +6851,7 @@
                  "id":1
               },
               {
-                 "answer":"úsilie politických skupín jednotlivých štátov udržat si vlastnú národnú menu",
+                 "answer":"úsilie politických skupín jednotlivých štátov udržať si vlastnú národnú menu",
                  "isCorrect":false,
                  "id":2
               },
@@ -7088,50 +7013,25 @@
            ]
         },
         {
-           "question":"Informačná spoločnosť je:",
+           "question":"Informačná spoločnosť je charakteristická:",
            "answers":[
               {
-                 "answer":"orientovaná na produkciu prístrojov, strojov a technických zariadení",
+                 "answer":"orientáciou na produkciu prístrojov, strojov a technických zariadení",
                  "isCorrect":false,
                  "id":0
               },
               {
-                 "answer":"založená na znalostiach a inováciách",
-                 "isCorrect":false,
+                 "answer":"prepájaním a spoluprácou informačných technológií, komunikačných a informačných služieb",
+                 "isCorrect":true,
                  "id":1
               },
               {
-                 "answer":"orientovaná na využívanie informácií v digitálnej podobe",
+                 "answer":"tým, že je založená predovšetkým na využívaní výrobného faktora kapitál, fyzická práca a pôda",
                  "isCorrect":false,
                  "id":2
               },
               {
-                 "answer":"zameraná na rozvoj a využívanie informačno-komunikačných technológií všetkými trhovými subjektmi",
-                 "isCorrect":true,
-                 "id":3
-              }
-           ]
-        },
-        {
-           "question":"Prínosom digitálnej ekonomiky je:",
-           "answers":[
-              {
-                 "answer":"znižovanie verejných dlhov a deficitov jednotlivých štátov",
-                 "isCorrect":false,
-                 "id":0
-              },
-              {
-                 "answer":"eliminácia vojenských konfliktov v rôznych regiónoch sveta",
-                 "isCorrect":false,
-                 "id":1
-              },
-              {
-                 "answer":"zvýšenie informovanosti o ponuke a dopyte, jednoduchší spôsob komunikácie na virtuálnom trhu, globalizácia trhov",
-                 "isCorrect":true,
-                 "id":2
-              },
-              {
-                 "answer":"centrálne štátne plánovanie a riadenie ekonomiky",
+                 "answer":"kombináciou využívania výrobných faktorov agrárnej a priemyselnej spoločnosti",
                  "isCorrect":false,
                  "id":3
               }
@@ -7241,12 +7141,12 @@
            "question":"Elektronické sprístupnenie rôznych aktivít verejnej a štátnej správy prostredníctvom informačno-komunikačných technológií občanom a podnikateľom sa nazýva:",
            "answers":[
               {
-                 "answer":"m-comerce",
+                 "answer":"m-commerce",
                  "isCorrect":false,
                  "id":0
               },
               {
-                 "answer":"e-comerce",
+                 "answer":"e-commerce",
                  "isCorrect":false,
                  "id":1
               },
@@ -7381,13 +7281,13 @@
                  "id":1
               },
               {
-                 "answer":"zoštátnenie",
-                 "isCorrect":true,
+                 "answer":"deetatizáciu",
+                 "isCorrect":false,
                  "id":2
               },
               {
-                 "answer":"všetky odpovede sú správne",
-                 "isCorrect":false,
+                 "answer":"expanzívnu monetárnu politiku",
+                 "isCorrect":true,
                  "id":3
               }
            ]
@@ -7418,7 +7318,7 @@
            ]
         },
         {
-           "question":"Medzi štandardné formy privatizácie patria:",
+           "question":"Medzi štandardné formy privatizácie patrí:",
            "answers":[
               {
                  "answer":"kupónová privatizácia",
@@ -7501,7 +7401,7 @@
                  "id":0
               },
               {
-                 "answer":"zmenu štátneho vlastníctva na súkromné vlastníctvo",
+                 "answer":"transformáciu štátneho vlastníctva na súkromné vlastníctvo aktív",
                  "isCorrect":true,
                  "id":1
               },
@@ -7511,17 +7411,17 @@
                  "id":2
               },
               {
-                 "answer":"žiadna z odpovedí nie je správna",
+                 "answer":"transformáciu štátnych podnikov na štátne akciové spoločnosti",
                  "isCorrect":false,
                  "id":3
               }
            ]
         },
         {
-           "question":"Medzi hospodárske opatrenia v období transformácie patrí:",
+           "question":"Medzi hospodárske opatrenia v období transformácie nepatrí:",
            "answers":[
               {
-                 "answer":"transformácia štátneho vlastníctva aktív na súkromné vlastníctvo",
+                 "answer":"reštrukturalizácia",
                  "isCorrect":false,
                  "id":0
               },
@@ -7536,8 +7436,8 @@
                  "id":2
               },
               {
-                 "answer":"všetky odpovede sú správne",
-                 "isCorrect":false,
+                 "answer":"zoštátnenie súkromného majetku",
+                 "isCorrect":true,
                  "id":3
               }
            ]
