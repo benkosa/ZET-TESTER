@@ -285,4 +285,12 @@ img {
     width: 415.2px;
   }
 }
+
+a:link {
+  color: #89b4f7;
+}
+
+a:visited {
+  color: #465269;
+}
 /*# sourceMappingURL=style.css.map */
