@@ -107,6 +107,15 @@
   color: #89b4f7;
 }
 
+a:link {
+  color: #89b4f7;
+}
+
+/* visited link */
+a:visited {
+  color: #465269;
+}
+
 .bAnswer, .right, .wrong {
   cursor: pointer;
   -webkit-touch-callout: none;
