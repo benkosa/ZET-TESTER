@@ -5724,7 +5724,7 @@
         "question": "Inflačné znehodnotenie HDP je vyjadrené:",
         "answers": [
           {
-            "answer": "indexom spotrebyteľských cien",
+            "answer": "indexom spotrebiteľských cien",
             "isCorrect": false,
             "id": 0
           },
@@ -6939,7 +6939,7 @@
         "question": "Kúpna sila peňazí vyjadruje:",
         "answers": [
           {
-            "answer": "množstvo peňažných prostriedkov potrebných na zakúpenie tovarov obsiahnutých v spotrebyteľskom koši",
+            "answer": "množstvo peňažných prostriedkov potrebných na zakúpenie tovarov obsiahnutých v spotrebiteľskom koši",
             "isCorrect": false,
             "id": 0
           },
@@ -7110,7 +7110,7 @@
             "id": 0
           },
           {
-            "answer": "index spotrebyteľských cien",
+            "answer": "index spotrebiteľských cien",
             "isCorrect": true,
             "id": 1
           },
@@ -7127,7 +7127,7 @@
         ]
       },
       {
-        "question": "Aká je miera inflácie, ak index spotrebyteľských cien bežného obdobia je 110, a predchádzajúceho obdobia 105:",
+        "question": "Aká je miera inflácie, ak index spotrebiteľských cien bežného obdobia je 110, a predchádzajúceho obdobia 105:",
         "answers": [
           {
             "answer": "4,54 %",
@@ -7190,7 +7190,7 @@
             "id": 1
           },
           {
-            "answer": "index spotrebyteľských cien",
+            "answer": "index spotrebiteľských cien",
             "isCorrect": false,
             "id": 2
           },
