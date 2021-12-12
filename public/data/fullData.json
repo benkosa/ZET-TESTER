@@ -5702,7 +5702,7 @@
            "answers":[
               {
                  "answer":"hodnota domácej meny vyjadrená kvalitou zahraničnej meny",
-                 "isCorrect":false,
+                 "isCorrect":true,
                  "id":0
               },
               {
@@ -5712,7 +5712,7 @@
               },
               {
                  "answer":"hodnota domácej meny vyjadrená v jednotkách zahraničnej meny",
-                 "isCorrect":true,
+                 "isCorrect":false,
                  "id":2
               },
               {
