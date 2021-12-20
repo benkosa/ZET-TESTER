@@ -71,7 +71,7 @@
             "id": 2
           },
           {
-            "answer": "spôsob identifikácie vplyvu kvalitatívnych premenných ovplynujúcich ekonómiu",
+            "answer": "spôsob identifikácie vplyvu kvalitatívnych premenných ovplyvňujúcich ekonómiu",
             "isCorrect": false,
             "id": 3
           }
@@ -216,7 +216,7 @@
             "id": 1
           },
           {
-            "answer": "udáva normy a metódy využivajúc väcšinou vedecké výroky na popis ekonomickej reality",
+            "answer": "udáva normy a metódy využívajúc väčšinou vedecké výroky na popis ekonomickej reality",
             "isCorrect": false,
             "id": 2
           },
@@ -236,7 +236,7 @@
             "id": 0
           },
           {
-            "answer": "predstavuje nástroj ekonomickej teórie, pri ktorom sa vyvodzujú závery o ekonomickom jave prostredníctvom spájania zistení, ziskaných zo skúmania jednotlivých prvkov",
+            "answer": "predstavuje nástroj ekonomickej teórie, pri ktorom sa vyvodzujú závery o ekonomickom jave prostredníctvom spájania zistení, získaných zo skúmania jednotlivých prvkov",
             "isCorrect": false,
             "id": 1
           },
@@ -271,7 +271,7 @@
             "id": 2
           },
           {
-            "answer": "imeratívna vedecká veta",
+            "answer": "imperatívna vedecká veta",
             "isCorrect": false,
             "id": 3
           }
@@ -546,7 +546,7 @@
             "id": 2
           },
           {
-            "answer": "konukrencia",
+            "answer": "konkurencia",
             "isCorrect": false,
             "id": 3
           }
@@ -653,7 +653,7 @@
         ]
       },
       {
-        "question": "Teória národnohospodárskej politiky sa zaoberá:",
+        "question": "Teória národohospodárskej politiky sa zaoberá:",
         "answers": [
           {
             "answer": "skúmaním vývoja názorov na ekonomické javy a procesy v minulosti",
@@ -1076,7 +1076,7 @@
             "id": 2
           },
           {
-            "answer": "hodnotu najlepšiej možnosti, ktorej sme sa pri spotrebe alebo výrobe vzdali",
+            "answer": "hodnotu najlepšej možnosti, ktorej sme sa pri spotrebe alebo výrobe vzdali",
             "isCorrect": false,
             "id": 3
           }
@@ -1136,7 +1136,7 @@
         "question": "Sekundárny sektor ekonomiky zahŕňa:",
         "answers": [
           {
-            "answer": "polnohospodárstvo a priemysel",
+            "answer": "poľnohospodárstvo a priemysel",
             "isCorrect": false,
             "id": 0
           },
@@ -1311,17 +1311,17 @@
         "question": "Princíp maxima sa pri hospodárení uplatňuje takto:",
         "answers": [
           {
-            "answer": "s využitim minima zdrojov dosiahnuť maximálny výstup",
+            "answer": "s využitím minima zdrojov dosiahnuť maximálny výstup",
             "isCorrect": false,
             "id": 0
           },
           {
-            "answer": "s využitim maxima zdrojov dosiahnuť minimálny výstup",
+            "answer": "s využitím maxima zdrojov dosiahnuť minimálny výstup",
             "isCorrect": false,
             "id": 1
           },
           {
-            "answer": "s využitim daných zdrojov dosiahnuť maximálny výstup",
+            "answer": "s využitím daných zdrojov dosiahnuť maximálny výstup",
             "isCorrect": true,
             "id": 2
           },
@@ -1401,7 +1401,7 @@
             "id": 2
           },
           {
-            "answer": "pod národnohospodárskou krivkou produkčných možností",
+            "answer": "pod národohospodárskou krivkou produkčných možností",
             "isCorrect": true,
             "id": 3
           }
@@ -1426,7 +1426,7 @@
             "id": 2
           },
           {
-            "answer": "podniky si určujú technológiu na vyrobu statkov",
+            "answer": "podniky si určujú technológiu na výrobu statkov",
             "isCorrect": false,
             "id": 3
           }
@@ -1458,7 +1458,7 @@
         ]
       },
       {
-        "question": "Ak výrobný podnik má k dispozícii 200 jednotiek vstupnej suroviny, pričom pri výrobe produktu F spotrebuje 5 jednotíek suroivny a pri výrobe produktu G spotrebuje 100 jednotiek suroviny, potom pri efektívnej výrobe medzi jeho produkčné možnosti patrí:",
+        "question": "Ak výrobný podnik má k dispozícii 200 jednotiek vstupnej suroviny, pričom pri výrobe produktu F spotrebuje 5 jednotiek suroviny a pri výrobe produktu G spotrebuje 100 jednotiek suroviny, potom pri efektívnej výrobe medzi jeho produkčné možnosti patrí:",
         "answers": [
           {
             "answer": "výroba 40 jednotiek produktu F alebo 2 jednotiek produktu G",
@@ -1491,7 +1491,7 @@
             "id": 0
           },
           {
-            "answer": "v prerozdelení príjmov občanov s vyššou úrovňou prijmov smerom k občanom s nižšími príjmami",
+            "answer": "v prerozdelení príjmov občanov s vyššou úrovňou príjmov smerom k občanom s nižšími príjmami",
             "isCorrect": false,
             "id": 1
           },
@@ -1576,7 +1576,7 @@
             "id": 1
           },
           {
-            "answer": "penažný",
+            "answer": "peňažný",
             "isCorrect": false,
             "id": 2
           },
@@ -1613,7 +1613,7 @@
         ]
       },
       {
-        "question": "Becker, Shultz, Friedman a hlavné teórie endogenného rastu doplnili tri základné výrobné faktory, resp. zdroje ekonomického rastu, o štvrtý:",
+        "question": "Becker, Shultz, Friedman a hlavné teórie endogénneho rastu doplnili tri základné výrobné faktory, resp. zdroje ekonomického rastu, o štvrtý:",
         "answers": [
           {
             "answer": "produktivita práce",
@@ -1663,7 +1663,7 @@
         ]
       },
       {
-        "question": "Porfóliový kapitál:",
+        "question": "Portfóliový kapitál:",
         "answers": [
           {
             "answer": "je reprezentovaný voľnými finančnými zdrojmi",
@@ -1871,7 +1871,7 @@
             "id": 0
           },
           {
-            "answer": "premenou portfóliového kapitálu na penažný kapitál",
+            "answer": "premenou portfóliového kapitálu na peňažný kapitál",
             "isCorrect": false,
             "id": 1
           },
@@ -1941,7 +1941,7 @@
         "question": "Prirodzená deľba práce:",
         "answers": [
           {
-            "answer": "znamená rozdelenie práce medzi ľudmi na základe pohlavia alebo veku",
+            "answer": "znamená rozdelenie práce medzi ľuďmi na základe pohlavia alebo veku",
             "isCorrect": true,
             "id": 0
           },
@@ -1956,7 +1956,7 @@
             "id": 2
           },
           {
-            "answer": "znamená rozdelnie výrobného procesu jednej výrobnej jednotky na časti, alebo na jednotlivé operácie (úkony)",
+            "answer": "znamená rozdelenie výrobného procesu jednej výrobnej jednotky na časti, alebo na jednotlivé operácie (úkony)",
             "isCorrect": false,
             "id": 3
           }
@@ -2021,7 +2021,7 @@
             "id": 0
           },
           {
-            "answer": "pre spracovateľský alebo tažobný priemysel",
+            "answer": "pre spracovateľský alebo ťažobný priemysel",
             "isCorrect": true,
             "id": 1
           },
@@ -2088,7 +2088,7 @@
         ]
       },
       {
-        "question": "Súhrn vrodených a nadobudnutých schopností, vedomostí, zručností a skúseností jednotlivcov, ktoré sú vynakladané pri tvorbe hodnôt.... je definnícia:",
+        "question": "Súhrn vrodených a nadobudnutých schopností, vedomostí, zručností a skúseností jednotlivcov, ktoré sú vynakladané pri tvorbe hodnôt.... je definícia:",
         "answers": [
           {
             "answer": "výrobný faktor práca",
@@ -2113,7 +2113,7 @@
         ]
       },
       {
-        "question": "Fyzická alebo psychická činnosť, ktorej výsledkom sú statky alebo služby a ktorá je zdrojom príjmu,mzdy.... je definícia:",
+        "question": "Fyzická alebo psychická činnosť, ktorej výsledkom sú statky alebo služby a ktorá je zdrojom príjmu, mzdy.... je definícia:",
         "answers": [
           {
             "answer": "výrobný faktor práca",
@@ -2793,7 +2793,7 @@
         ]
       },
       {
-        "question": "Cenovú elsticitu dopytu vypočítame ako percentuálnu zmenu:",
+        "question": "Cenovú elasticitu dopytu vypočítame ako percentuálnu zmenu:",
         "answers": [
           {
             "answer": "dopytovaného množstva delenú percentuálnou zmenou ceny",
@@ -2811,7 +2811,7 @@
             "id": 2
           },
           {
-            "answer": "dopytovaného množstva jedného statku delenú percentuálnou zmenou ceny druhúho statku",
+            "answer": "dopytovaného množstva jedného statku delenú percentuálnou zmenou ceny druhého statku",
             "isCorrect": false,
             "id": 3
           }
@@ -3061,7 +3061,7 @@
             "id": 2
           },
           {
-            "answer": "zníženie cien komponentov používaných pri výrobe počitačov",
+            "answer": "zníženie cien komponentov používaných pri výrobe počítačov",
             "isCorrect": true,
             "id": 3
           }
@@ -3093,7 +3093,7 @@
         ]
       },
       {
-        "question": "Ak sa zníži dopyt aj ponuka (posuny kriviek dop~·tu a ponuky) po určitom produkte (ceteris paribus), môžeme povedať, že to bude mať na rovnováhu tieto dôsledky:",
+        "question": "Ak sa zníži dopyt aj ponuka (posuny kriviek dopytu a ponuky) po určitom produkte (ceteris paribus), môžeme povedať, že to bude mať na rovnováhu tieto dôsledky:",
         "answers": [
           {
             "answer": "množstvo klesne, ale rovnovážna cena vzrastie",
@@ -3106,7 +3106,7 @@
             "id": 1
           },
           {
-            "answer": "cena klesne, ale rovnovážne množstvo móže vzrásť, klesnúť, alebo zostať nezmenené",
+            "answer": "cena klesne, ale rovnovážne množstvo môže vzrásť, klesnúť, alebo zostať nezmenené",
             "isCorrect": false,
             "id": 2
           },
@@ -3118,7 +3118,7 @@
         ]
       },
       {
-        "question": "Na trhu s nohavicami sú dopytová a ponuková funkcia dané rovnicami:<br> Dopyt: P = 100 - 5.Qd,<br> Ponuka: P = 20 + 3.Qs,<br> Rovnovážné množstvo na tomto trhu bude:",
+        "question": "Na trhu s nohavicami sú dopytová a ponuková funkcia dané rovnicami:<br> Dopyt: P = 100 - 5.Qd,<br> Ponuka: P = 20 + 3.Qs,<br> Rovnovážne množstvo na tomto trhu bude:",
         "answers": [
           {
             "answer": "8 ks",
@@ -3341,7 +3341,7 @@
             "id": 2
           },
           {
-            "answer": "zníženie mnžstva ponúkanej práce",
+            "answer": "zníženie množstva ponúkanej práce",
             "isCorrect": false,
             "id": 3
           }
@@ -3406,17 +3406,17 @@
             "id": 0
           },
           {
-            "answer": "cyklická nezamestnanosť, sa rovná alebo je väcšia, ako štrukturálna",
+            "answer": "cyklická nezamestnanosť, sa rovná alebo je väčšia, ako štrukturálna",
             "isCorrect": false,
             "id": 1
           },
           {
-            "answer": "počet voľných pracovných síl je väcší, než pocet voľných pracovných miest",
+            "answer": "počet voľných pracovných síl je väčší, než počet voľných pracovných miest",
             "isCorrect": true,
             "id": 2
           },
           {
-            "answer": "počet voľných pracovných miest je väcší, než počet voľných pracovných síl",
+            "answer": "počet voľných pracovných miest je väčší, než počet voľných pracovných síl",
             "isCorrect": false,
             "id": 3
           }
@@ -3456,7 +3456,7 @@
             "id": 0
           },
           {
-            "answer": "výšky nominálnej mzdy, daňového zataženia, cien tovarov a služieb",
+            "answer": "výšky nominálnej mzdy, daňového zaťaženia, cien tovarov a služieb",
             "isCorrect": true,
             "id": 1
           },
@@ -3541,7 +3541,7 @@
             "id": 2
           },
           {
-            "answer": "výškou mzdy a úrokvou mierou, od ktorej odpočítame dane",
+            "answer": "výškou mzdy a úrokovou mierou, od ktorej odpočítame dane",
             "isCorrect": false,
             "id": 3
           }
@@ -4031,7 +4031,7 @@
         "question": "Hraničný sklon k spotrebe udáva:",
         "answers": [
           {
-            "answer": "predposlednú penažnú jednotku vynaloženú na spotrebu",
+            "answer": "predposlednú peňažnú jednotku vynaloženú na spotrebu",
             "isCorrect": false,
             "id": 0
           },
@@ -4106,7 +4106,7 @@
         "question": "Hraničný sklon k úsporám udáva:",
         "answers": [
           {
-            "answer": "poslednú penažnú jendotku vynaloženú na spotrebu",
+            "answer": "poslednú peňažnú jednotku vynaloženú na spotrebu",
             "isCorrect": false,
             "id": 0
           },
@@ -4131,7 +4131,7 @@
         "question": "Súčet hraničného sklonu k spotrebe a hraničného sklonu k úsporám:",
         "answers": [
           {
-            "answer": "je väcší ako jedna",
+            "answer": "je väčší ako jedna",
             "isCorrect": false,
             "id": 0
           },
@@ -4196,14 +4196,14 @@
             "id": 2
           },
           {
-            "answer": "odvodený od deflátora výstupu ekonomoniky",
+            "answer": "odvodený od deflátora výstupu ekonomiky",
             "isCorrect": false,
             "id": 3
           }
         ]
       },
       {
-        "question": "Dopyt po investíciach:",
+        "question": "Dopyt po investíciách:",
         "answers": [
           {
             "answer": "závisí od vývoja úrokovej miery",
@@ -4479,7 +4479,7 @@
         ]
       },
       {
-        "question": "Na základe hore uvedeného obrázka vieme, že v danom príklade hodnota hraničného sklonu k úsporam je:",
+        "question": "Na základe hore uvedeného obrázka vieme, že v danom príklade hodnota hraničného sklonu k úsporám je:",
         "answers": [
           {
             "answer": "0,10",
@@ -4587,7 +4587,7 @@
             "id": 0
           },
           {
-            "answer": "veľkosť časti disponibilného príjmu určena na nákup spotrebných statkov a služieb",
+            "answer": "veľkosť časti disponibilného príjmu určená na nákup spotrebných statkov a služieb",
             "isCorrect": true,
             "id": 1
           },
@@ -4597,7 +4597,7 @@
             "id": 2
           },
           {
-            "answer": "veľkosť časti disponibilného príjmu určená na nákup kapitalových statkov a služieb",
+            "answer": "veľkosť časti disponibilného príjmu určená na nákup kapitálových statkov a služieb",
             "isCorrect": false,
             "id": 3
           }
@@ -4687,7 +4687,7 @@
             "id": 0
           },
           {
-            "answer": "hruba mzda, ktorú domácnosti dostávajú ako odmenu za prácu",
+            "answer": "hrubá	 mzda, ktorú domácnosti dostávajú ako odmenu za prácu",
             "isCorrect": false,
             "id": 1
           },
@@ -4783,7 +4783,7 @@
         "answers": [
           {
             "answer": "600",
-            "isCorrect": false,
+            "isCorrect": true,
             "id": 0
           },
           {
@@ -4817,7 +4817,7 @@
             "id": 0
           },
           {
-            "answer": "stabilizačná, redistribučná, loajálna, alokačná",
+            "answer": "stabilizačná, redistribučná, lojálna, alokačná",
             "isCorrect": false,
             "id": 1
           },
@@ -4877,7 +4877,7 @@
             "id": 2
           },
           {
-            "answer": "minimalizuje oscilácie reálneho HDP okolo potencionálneho HDP",
+            "answer": "minimalizuje oscilácie reálneho HDP okolo potenciálneho HDP",
             "isCorrect": true,
             "id": 3
           }
@@ -4997,7 +4997,7 @@
             "id": 1
           },
           {
-            "answer": "daň je zo zákona povinná platba smerujúca od fyzických a právnickych osôb do štátneho rozpočtu",
+            "answer": "daň je zo zákona povinná platba smerujúca od fyzických a právnických osôb do štátneho rozpočtu",
             "isCorrect": true,
             "id": 2
           },
@@ -5072,7 +5072,7 @@
             "id": 1
           },
           {
-            "answer": "vzťah medzi percentuálnou zmenou ponúkaneho množstva a percentuálnou zmenou daní",
+            "answer": "vzťah medzi percentuálnou zmenou ponúkaného množstva a percentuálnou zmenou daní",
             "isCorrect": false,
             "id": 2
           },
@@ -5122,13 +5122,13 @@
             "id": 1
           },
           {
-            "answer": "vonkajší",
-            "isCorrect": true,
+            "answer": "hrubý",
+            "isCorrect": false,
             "id": 2
           },
           {
-            "answer": "hrubý",
-            "isCorrect": false,
+            "answer": "vonkajší",
+            "isCorrect": true,
             "id": 3
           }
         ]
@@ -5524,7 +5524,7 @@
             "id": 0
           },
           {
-            "answer": "su vydavky väčšie ako príjmy",
+            "answer": "sú výdavky väčšie ako príjmy",
             "isCorrect": true,
             "id": 1
           },
@@ -5559,7 +5559,7 @@
             "id": 1
           },
           {
-            "answer": "národny dôchodok",
+            "answer": "národný dôchodok",
             "isCorrect": true,
             "id": 2
           },
@@ -5654,7 +5654,7 @@
             "id": 0
           },
           {
-            "answer": "spotreba domácnosti, čisté investívie firiem, výdavky vlády na nákup statkov, export mínus import",
+            "answer": "spotreba domácnosti, čisté investície firiem, výdavky vlády na nákup statkov, export mínus import",
             "isCorrect": false,
             "id": 1
           },
@@ -5959,7 +5959,7 @@
             "id": 1
           },
           {
-            "answer": "národny dôchodok",
+            "answer": "národný dôchodok",
             "isCorrect": true,
             "id": 2
           },
@@ -6139,7 +6139,7 @@
             "id": 2
           },
           {
-            "answer": "stálymi cenami, teda cenami bežneho obdobia",
+            "answer": "stálymi cenami, teda cenami bežného obdobia",
             "isCorrect": false,
             "id": 3
           }
@@ -6196,7 +6196,7 @@
         ]
       },
       {
-        "question": "Ktorá z následujúcich položiek sa nezapočítava do HDP dôchodkovou metódou:",
+        "question": "Ktorá z nasledujúcich položiek sa nezapočítava do HDP dôchodkovou metódou:",
         "answers": [
           {
             "answer": "investičné výdavky podnikov",
@@ -6234,7 +6234,7 @@
             "id": 1
           },
           {
-            "answer": "v amortizácií a nepriamych damach",
+            "answer": "v amortizácií a nepriamych daniach",
             "isCorrect": true,
             "id": 2
           },
@@ -6275,7 +6275,7 @@
         "answers": [
           {
             "answer": "expanzia, recesia, konjunktúra, kríza",
-            "isCorrect": true,
+            "isCorrect": false,
             "id": 0
           },
           {
@@ -6285,7 +6285,7 @@
           },
           {
             "answer": "expanzia, konjunktúra, recesia, depresia",
-            "isCorrect": false,
+            "isCorrect": true,
             "id": 2
           },
           {
@@ -6305,22 +6305,22 @@
         "question": "Agregátny dopyt predstavuje:",
         "answers": [
           {
-            "answer": "množstvo SaS, ktoré sú všetci kupujúci v národnom hospodárstve ochotní a schopní kúpit pri rôznych cenových hladinách v danom case",
+            "answer": "množstvo statkov a služieb, ktoré sú všetci kupujúci v národnom hospodárstve ochotní a schopní kúpiť pri rôznych cenových hladinách v danom čase",
             "isCorrect": false,
             "id": 0
           },
           {
-            "answer": "množstvo SaS, ktoré sú všetci kupujúci v národnom hospodárstve ochotní a schopní kúpit pri danej cenovej hladine v danom case",
+            "answer": "množstvo statkov a služieb, ktoré sú všetci kupujúci v národnom hospodárstve ochotní a schopní kúpiť pri danej cenovej hladine v danom čase",
             "isCorrect": true,
             "id": 1
           },
           {
-            "answer": "množstvo SaS, ktoré sú kupujúci ochotní a schopní kúpit pri danej cene v danom case",
+            "answer": "množstvo statkov a služieb, ktoré sú kupujúci ochotní a schopní kúpiť pri danej cene v danom čase",
             "isCorrect": false,
             "id": 2
           },
           {
-            "answer": "množstvo SaS, ktoré sú kupujúci ochotní a schopní kúpit pri rôznych cenových hladinách v danom case",
+            "answer": "množstvo statkov a služieb, ktoré sú kupujúci ochotní a schopní kúpiť pri rôznych cenách v danom čase",
             "isCorrect": false,
             "id": 3
           }
@@ -6360,7 +6360,7 @@
             "id": 0
           },
           {
-            "answer": "posúva krivku agregátneho dopytu dolava",
+            "answer": "posúva krivku agregátneho dopytu doľava",
             "isCorrect": false,
             "id": 1
           },
@@ -6377,7 +6377,7 @@
         ]
       },
       {
-        "question": "Pri modelovaní agregátneho trhu pomocou kriviek, na Y osi bude hodnota:",
+        "question": "Pri modelovaní agregátneho trhu pomocou kriviek, na y osi bude hodnota:",
         "answers": [
           {
             "answer": "množstva statku X",
@@ -6402,7 +6402,7 @@
         ]
       },
       {
-        "question": "Pri modelovaní agregátneho trhu pomocou kriviek, na X osi bude hodnota:",
+        "question": "Pri modelovaní agregátneho trhu pomocou kriviek, na x osi bude hodnota:",
         "answers": [
           {
             "answer": "množstva statku X",
@@ -6435,17 +6435,17 @@
             "id": 0
           },
           {
-            "answer": "množstvo špecializovanej produkcie všetkých firiem, uskladnených v danom case, pri rôznych cenových hladinách",
+            "answer": "množstvo špecializovanej produkcie všetkých firiem, uskladnených v danom čase, pri rôznych cenových hladinách",
             "isCorrect": false,
             "id": 1
           },
           {
-            "answer": "celkové množstvo SaS, ktoré sú podniky v ekonomike ochotné a schopné ponúknut pri danej cenovej hladine v danom case",
+            "answer": "celkové množstvo statkov a služieb, ktoré sú podniky v ekonomike ochotné a schopné ponúknuť pri danej cenovej hladine v danom čase",
             "isCorrect": true,
             "id": 2
           },
           {
-            "answer": "objem kapitálových statkov, ktoré sú podniky ochotné a schopné ponúknut pri rôznych cenových hladinách a pri danej výrobnej kapacite ekonomiky",
+            "answer": "objem kapitálových statkov, ktoré sú podniky ochotné a schopné ponúknuť pri rôznych cenových hladinách a pri danej výrobnej kapacite ekonomiky",
             "isCorrect": false,
             "id": 3
           }
@@ -6490,12 +6490,12 @@
             "id": 1
           },
           {
-            "answer": "klasici v krátkom období",
+            "answer": "neokeynesovci v dlhom období",
             "isCorrect": false,
             "id": 2
           },
           {
-            "answer": "neokeynesovci v dlhom období",
+            "answer": "klasici v krátkom období",
             "isCorrect": false,
             "id": 3
           }
@@ -6515,7 +6515,7 @@
             "id": 1
           },
           {
-            "answer": "rastúca zlava doprava",
+            "answer": "rastúca zľava doprava",
             "isCorrect": false,
             "id": 2
           },
@@ -6552,7 +6552,7 @@
         ]
       },
       {
-        "question": "Rovnováha na agregátnom trhu podľa klasikov može vzniknúť:",
+        "question": "Rovnováha na agregátnom trhu podľa klasikov môže vzniknúť:",
         "answers": [
           {
             "answer": "iba na úrovni potenciálneho produktu",
@@ -6560,12 +6560,12 @@
             "id": 0
           },
           {
-            "answer": "aj pod úrovnou potenciálneho produktu",
+            "answer": "aj pod úrovňou potenciálneho produktu",
             "isCorrect": false,
             "id": 1
           },
           {
-            "answer": "aj nad úrovnou potenciálneho produktu",
+            "answer": "aj nad úrovňou potenciálneho produktu",
             "isCorrect": false,
             "id": 2
           },
@@ -6577,7 +6577,7 @@
         ]
       },
       {
-        "question": "Rovnováha na agregátnom trhu podľa neokeynesovcov može vzniknúť:",
+        "question": "Rovnováha na agregátnom trhu podľa neokeynesovcov môže vzniknúť:",
         "answers": [
           {
             "answer": "iba na úrovni potenciálneho produktu",
@@ -6585,12 +6585,12 @@
             "id": 0
           },
           {
-            "answer": "aj pod úrovnou potenciálneho produktu",
+            "answer": "aj pod úrovňou potenciálneho produktu",
             "isCorrect": true,
             "id": 1
           },
           {
-            "answer": "aj nad úrovnou potenciálneho produktu",
+            "answer": "aj nad úrovňou potenciálneho produktu",
             "isCorrect": false,
             "id": 2
           },
@@ -6620,7 +6620,7 @@
             "id": 2
           },
           {
-            "answer": "žiadna z odpovedí nie je správna",
+            "answer": "žiadna z uvedených možností nie je správna",
             "isCorrect": false,
             "id": 3
           }
@@ -6655,12 +6655,12 @@
         "question": "Posun krivky agregátneho dopytu doľava spôsobí:",
         "answers": [
           {
-            "answer": "reštriktívna fiškálna politika",
+            "answer": "reštriktívna monetárna politika",
             "isCorrect": true,
             "id": 0
           },
           {
-            "answer": "expanzívna fiškálna politika",
+            "answer": "expanzívna monetárna politika",
             "isCorrect": false,
             "id": 1
           },
@@ -6685,13 +6685,13 @@
             "id": 0
           },
           {
-            "answer": "dokonale pružné",
-            "isCorrect": false,
+            "answer": "pružné len smerom nahor",
+            "isCorrect": true,
             "id": 1
           },
           {
-            "answer": "pružné len smerom nahor",
-            "isCorrect": true,
+            "answer": "dokonale pružné",
+            "isCorrect": false,
             "id": 2
           },
           {
@@ -6716,12 +6716,12 @@
             "id": 1
           },
           {
-            "answer": "V krátkom období podľa Keynesa",
+            "answer": "v krátkom období podľa Keynesa",
             "isCorrect": false,
             "id": 2
           },
           {
-            "answer": "V dlhom období podľa Laffera",
+            "answer": "v dlhom období podľa Laffera",
             "isCorrect": false,
             "id": 3
           }
@@ -6747,7 +6747,7 @@
             "id": 2
           },
           {
-            "answer": "AS v dlhom období podla Keynesa",
+            "answer": "AS v dlhom období podľa Keynesa",
             "isCorrect": true,
             "id": 3
           }
@@ -6824,7 +6824,7 @@
             "id": 1
           },
           {
-            "answer": "v procese obehu sa nespotrebúvaju",
+            "answer": "v procese obehu sa nespotrebúvajú",
             "isCorrect": false,
             "id": 2
           },
@@ -6886,7 +6886,7 @@
         ]
       },
       {
-        "question": "Tým, že peniaze vyjadrujú cenu statkov a služieb, pohľadávok a záväzkov, majetkových aktív a pasív, účtujú sa v nich účtovné jednotky a štát nimi vyjadruje veľkosť niektorých makroekonomických agregátnych ukazateľov, plnia funkciu: ",
+        "question": "Tým, že peniaze vyjadrujú cenu statkov a služieb, pohľadávok a záväzkov, majetkových aktív a pasív, účtujú sa v nich účtovné jednotky a štát nimi vyjadruje veľkosť niektorých makroekonomických agregátnych ukazovateľov, plnia funkciu: ",
         "answers": [
           {
             "answer": "štandardu odložených platieb",
@@ -6944,7 +6944,7 @@
             "id": 0
           },
           {
-            "answer": "množstvo statkov a služieb, ktoré je schopná zakúpit jedna peňažná jednotka pri danej cenovej úrovni",
+            "answer": "množstvo statkov a služieb, ktoré je schopná zakúpiť jedna peňažná jednotka pri danej cenovej úrovni",
             "isCorrect": true,
             "id": 1
           },
@@ -6954,7 +6954,7 @@
             "id": 2
           },
           {
-            "answer": "výmenny kurz vnútornej a zahraničnej meny",
+            "answer": "výmenný kurz vnútornej a zahraničnej meny",
             "isCorrect": false,
             "id": 3
           }
@@ -7061,7 +7061,7 @@
         ]
       },
       {
-        "question": "Zakreslite do grafu ako sa zmení rovnováha na peňažnom trhu, ak centrálna banka bude uplatňovať reštriktívnu monetárnu politku",
+        "question": "Zakreslite do grafu ako sa zmení rovnováha na peňažnom trhu, ak centrálna banka bude uplatňovať reštriktívnu monetárnu politiku",
         "picture": "data/pictures/t11q11.png",
         "answers": [
           {
@@ -7177,7 +7177,7 @@
         ]
       },
       {
-        "question": "Ktorý cenový index meria zmenu cenovej úrovňe všetkých finálnych statkov a služieb vyprodukovaných v ekonomike danej krajiny:",
+        "question": "Ktorý cenový index meria zmenu cenovej úrovne všetkých finálnych statkov a služieb vyprodukovaných v ekonomike danej krajiny:",
         "answers": [
           {
             "answer": "index cien výrobcov",
@@ -7276,7 +7276,7 @@
             "id": 0
           },
           {
-            "answer": "zabezpečit dostatok verejných finančných zdrojov",
+            "answer": "zabezpečiť dostatok verejných finančných zdrojov",
             "isCorrect": false,
             "id": 1
           },
@@ -7471,7 +7471,7 @@
         "question": "Expanzívna monetárna politika je realizovaná:",
         "answers": [
           {
-            "answer": "znížením diskontnej sadzby, znížením povinných minimálnych rezerv, nakupom štátnych cenných papierov",
+            "answer": "znížením diskontnej sadzby, znížením povinných minimálnych rezerv, nákupom štátnych cenných papierov",
             "isCorrect": true,
             "id": 0
           },
@@ -7618,7 +7618,7 @@
         ]
       },
       {
-        "question": "Detlátor HDP vyjadruje vzťah:",
+        "question": "Deflátor HDP vyjadruje vzťah:",
         "answers": [
           {
             "answer": "(nominálny HDP/potenciálny HDP) . 100 (%)",
@@ -7646,7 +7646,7 @@
         "question": "Celkovú úroveň cien tovarov a služieb označujeme pojmom:",
         "answers": [
           {
-            "answer": "cenovy prah",
+            "answer": "cenový prah",
             "isCorrect": false,
             "id": 0
           },
@@ -7886,7 +7886,7 @@
             "id": 1
           },
           {
-            "answer": "uľahčí sa dovoz zo Švajciarska do V. Británie,",
+            "answer": "uľahčí sa dovoz zo Švajčiarska do V. Británie,",
             "isCorrect": true,
             "id": 2
           },
@@ -8316,7 +8316,7 @@
             "id": 2
           },
           {
-            "answer": "pokles hodnoty menoveho kurzu v systéme pružných MK",
+            "answer": "pokles hodnoty menového kurzu v systéme pružných MK",
             "isCorrect": false,
             "id": 3
           }
@@ -8326,7 +8326,7 @@
         "question": "Medzi alternatívne meny patria:",
         "answers": [
           {
-            "answer": "lokálne meny (živec, pieštansky grajciar, atď. )",
+            "answer": "lokálne meny (živec, piešťanský grajciar, atď. )",
             "isCorrect": false,
             "id": 0
           },
@@ -8886,7 +8886,7 @@
             "id": 0
           },
           {
-            "answer": "menej konkureneie",
+            "answer": "menej konkurencie",
             "isCorrect": true,
             "id": 1
           },
@@ -9186,12 +9186,12 @@
             "id": 0
           },
           {
-            "answer": "finančné prispevky vlády poskytované na presne vymedzenú činnosť v rámci ZOP",
+            "answer": "finančné príspevky vlády poskytované na presne vymedzenú činnosť v rámci ZOP",
             "isCorrect": true,
             "id": 1
           },
           {
-            "answer": "kvóty, množstvá exportovaneho tovaru",
+            "answer": "kvóty, množstvá exportovaného tovaru",
             "isCorrect": false,
             "id": 2
           },
@@ -9221,7 +9221,7 @@
             "id": 1
           },
           {
-            "answer": "najvyšší stupeń internacionalizácie hospodárskeho života",
+            "answer": "najvyšší stupeň internacionalizácie hospodárskeho života",
             "isCorrect": true,
             "id": 2
           },
@@ -9536,7 +9536,7 @@
         "question": "Konvergenčné kritériá musia splniť:",
         "answers": [
           {
-            "answer": "ktorékolvek štáty, ak chcú vstúpiť do EÚ",
+            "answer": "ktorékoľvek štáty, ak chcú vstúpiť do EÚ",
             "isCorrect": false,
             "id": 0
           },
@@ -9896,12 +9896,12 @@
             "id": 1
           },
           {
-            "answer": "spÍňa všetky Kodanské kritériá",
+            "answer": "spĺňa všetky Kodanské kritériá",
             "isCorrect": false,
             "id": 2
           },
           {
-            "answer": "spfňa všetky Maastrichtské kritériá",
+            "answer": "spĺňa všetky Maastrichtské kritériá",
             "isCorrect": false,
             "id": 3
           }
@@ -10031,7 +10031,7 @@
             "id": 2
           },
           {
-            "answer": "prepojenie finančných trhov a okamžitý prenos akýchkolvek informácií",
+            "answer": "prepojenie finančných trhov a okamžitý prenos akýchkoľvek informácií",
             "isCorrect": false,
             "id": 3
           }
@@ -10166,7 +10166,7 @@
         "question": "Čo je poslaním Medzinárodného menového fondu:",
         "answers": [
           {
-            "answer": "riešit medzinárodné problémy v hospodárskej, sociálnej, kultúrnej alebo humanitárnej oblasti",
+            "answer": "riešiť medzinárodné problémy v hospodárskej, sociálnej, kultúrnej alebo humanitárnej oblasti",
             "isCorrect": false,
             "id": 0
           },
@@ -10413,7 +10413,7 @@
         ]
       },
       {
-        "question": "Medzi služby e-govermentu nepatrí:",
+        "question": "Medzi služby e-governmentu nepatrí:",
         "answers": [
           {
             "answer": "elektronické podávanie daňových priznaní",
@@ -10431,7 +10431,7 @@
             "id": 2
           },
           {
-            "answer": "elektronické informácie Katastrálneho úradu SR o vlastníctve nehnutelného majetku",
+            "answer": "elektronické informácie Katastrálneho úradu SR o vlastníctve nehnuteľného majetku",
             "isCorrect": false,
             "id": 3
           }
@@ -10513,7 +10513,7 @@
         ]
       },
       {
-        "question": "Označte nepravdivý výrok: Podnikové informačné sysémy sa v podnikoch implementujú pomocou:",
+        "question": "Označte nepravdivý výrok: Podnikové informačné systémy sa v podnikoch implementujú pomocou:",
         "answers": [
           {
             "answer": "aplikácií pre externé vzťahy podnikov",
@@ -10546,7 +10546,7 @@
             "id": 0
           },
           {
-            "answer": "ekonomickou náročcnosťou",
+            "answer": "ekonomickou náročnosťou",
             "isCorrect": false,
             "id": 1
           },
@@ -10613,7 +10613,7 @@
         ]
       },
       {
-        "question": "Označte nepravdivý výrok: Jednou z najvýznamnejších organizácií napomábajúcich globalizácii v ekonomickej oblasti je:",
+        "question": "Označte nepravdivý výrok: Jednou z najvýznamnejších organizácií napomáhajúcich globalizácii v ekonomickej oblasti je:",
         "answers": [
           {
             "answer": "NATO",
@@ -10896,7 +10896,7 @@
         "question": "Medzi neštandardné formy privatizácie patria: ",
         "answers": [
           {
-            "answer": "verejná sútaž",
+            "answer": "verejná súťaž",
             "isCorrect": false,
             "id": 0
           },
@@ -11021,7 +11021,7 @@
         "question": "Pred transformáciou slovenskej ekonomiky neexistovali inštitúcie:",
         "answers": [
           {
-            "answer": "Štatisticky úrad a Úrad bezpecnosti práce",
+            "answer": "Štatisticky úrad a Úrad bezpečnosti práce",
             "isCorrect": false,
             "id": 0
           },
@@ -11236,7 +11236,7 @@
             "id": 2
           },
           {
-            "answer": "viesť k obmedzeniu výroby zatažujúcej životné prostredie",
+            "answer": "viesť k obmedzeniu výroby zaťažujúcej životné prostredie",
             "isCorrect": true,
             "id": 3
           }
