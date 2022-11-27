@@ -10757,7 +10757,7 @@
           },
           {
             "answer": "úspora času pri elektronickom podávaní daňových priznaní",
-            "isCorrect": false,
+            "isCorrect": true,
             "id": 3
           }
         ]
