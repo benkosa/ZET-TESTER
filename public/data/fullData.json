@@ -2272,12 +2272,12 @@
           },
           {
             "answer": "Zákon klesajúceho hraničného produktu",
-            "isCorrect": true,
+            "isCorrect": false,
             "id": 1
           },
           {
             "answer": "Zákon klesajúcich výnosov",
-            "isCorrect": false,
+            "isCorrect": true,
             "id": 2
           },
           {
