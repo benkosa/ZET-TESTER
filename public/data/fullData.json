@@ -3657,12 +3657,12 @@
           },
           {
             "answer": "domácnosti, ktoré majú záujem spotrebovať",
-            "isCorrect": true,
+            "isCorrect": false,
             "id": 1
           },
           {
             "answer": "úspory hospodárskych subjektov",
-            "isCorrect": false,
+            "isCorrect": true,
             "id": 2
           },
           {
@@ -3802,7 +3802,7 @@
         "answers": [
           {
             "answer": "zamestnávatelia a krivka dopytuje vždy klesajúca",
-            "isCorrect": false,
+            "isCorrect": true,
             "id": 0
           },
           {
@@ -3812,7 +3812,7 @@
           },
           {
             "answer": "vytvárajú zamestnanci a krivka dopytuje vždy klesajúca",
-            "isCorrect": true,
+            "isCorrect": false,
             "id": 2
           },
           {
