@@ -1752,12 +1752,12 @@
           },
           {
             "answer": "štátnu, súkromnú, zmiešanú deľbu práce",
-            "isCorrect": false,
+            "isCorrect": true,
             "id": 2
           },
           {
             "answer": "technologickú, medzinárodnú, spoločenskú deľbu práce",
-            "isCorrect": true,
+            "isCorrect": false,
             "id": 3
           }
         ]
