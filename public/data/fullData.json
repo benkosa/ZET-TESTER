@@ -2872,7 +2872,7 @@
         "answers": [
           {
             "answer": "krivka ponuky posunie doprava, lebo chlieb a rožky sú substitúty",
-            "isCorrect": true,
+            "isCorrect": false,
             "id": 0
           },
           {
@@ -2887,7 +2887,7 @@
           },
           {
             "answer": "krivka dopytu posunie doľava, lebo chlieb a rožky sú substitúty",
-            "isCorrect": false,
+            "isCorrect": true,
             "id": 3
           }
         ]
