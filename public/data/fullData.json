@@ -11232,12 +11232,12 @@
           },
           {
             "answer": "viesť k podpore výroby s nízkou pridanou hodnotou,",
-            "isCorrect": false,
+            "isCorrect": true,
             "id": 2
           },
           {
             "answer": "viesť k obmedzeniu výroby zaťažujúcej životné prostredie",
-            "isCorrect": true,
+            "isCorrect": false,
             "id": 3
           }
         ]
