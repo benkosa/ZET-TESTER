@@ -10042,7 +10042,7 @@
         "answers": [
           {
             "answer": "presun investícií, technológií a pracovných síl do iných častí sveta s cieľom využívať komparatívne výhody inej krajiny",
-            "isCorrect": true,
+            "isCorrect": false,
             "id": 0
           },
           {
@@ -10052,7 +10052,7 @@
           },
           {
             "answer": "úsilie politických skupín jednotlivých štátov udržať si vlastnú národnú menu",
-            "isCorrect": false,
+            "isCorrect": true,
             "id": 2
           },
           {
