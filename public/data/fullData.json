@@ -7347,7 +7347,7 @@
         "answers": [
           {
             "answer": "dopytu doprava",
-            "isCorrect": true,
+            "isCorrect": false,
             "id": 0
           },
           {
@@ -7362,7 +7362,7 @@
           },
           {
             "answer": "ponuky doprava",
-            "isCorrect": false,
+            "isCorrect": true,
             "id": 3
           }
         ]
