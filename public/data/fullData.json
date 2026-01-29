@@ -2242,7 +2242,7 @@
         "answers": [
           {
             "answer": "brutto investície s DPH",
-            "isCorrect": true,
+            "isCorrect": false,
             "id": 0
           },
           {
@@ -2252,7 +2252,7 @@
           },
           {
             "answer": "súhrnom čistých a reprodukčných investícií",
-            "isCorrect": false,
+            "isCorrect": true,
             "id": 2
           },
           {
